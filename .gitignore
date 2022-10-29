@@ -5,6 +5,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+/meiduo_mall/.idea
+/meiduo_mall/venv
 # Editor directories and files
 .idea
 .vscode
