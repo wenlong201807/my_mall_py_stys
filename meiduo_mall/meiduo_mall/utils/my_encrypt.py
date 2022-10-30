@@ -1,5 +1,4 @@
 from itsdangerous.jws import TimedJSONWebSignatureSerializer as TJWSSerializer
-from django.conf import settings
 from users.models import User
 from django.conf import settings
 

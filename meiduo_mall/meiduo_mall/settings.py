@@ -35,6 +35,17 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # 'rest_framework.authtoken',
+
+    # 'users', # 展开时候就是下面的形式
+    'users.apps.UsersConfig',
+    # 'oauth.apps.OauthConfig',
+    # 'areas.apps.AreasConfig',
+    # 'contents.apps.ContentsConfig',
+    # 'goods.apps.GoodsConfig',
+    # 'haystack',
+    # 'orders.apps.OrdersConfig',
+    # 'pays.apps.PaysConfig',
 
     'corsheaders',  # 跨域模块
 ]
@@ -89,7 +100,7 @@ DATABASES = {
         'PORT': 3306,  # 数据库端口
         'USER': 'root',  # 数据库用户名
         'PASSWORD': '157351',  # 数据库用户密码
-        'NAME': 'meiduo',  # 数据库名字
+        'NAME': 'meiduo_mall',  # 数据库名字
         'OPTIONS': {},
         'init_command': 'SET storage_engine=INNODB;'
     },
@@ -146,6 +157,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # DRF配置
 REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
+    ),
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
         'rest_framework.authentication.SessionAuthentication',
@@ -160,3 +174,53 @@ JWT_AUTH = {
     'JWT_EXPIRATION_DELTA': datetime.timedelta(days=1),
     # 'JWT_RESPONSE_PAYLOAD_HANDLER': 'meiduo_admin.utils.my_response.my_jwt_response_payload_handler'
 }
+
+# 设置自定义的认证模型类
+AUTH_USER_MODEL = 'users.User'
+
+# 设置自定义认证方法
+# AUTHENTICATION_BACKENDS = ['meiduo_mall.utils.my_authenticate.MyModelBackend']
+
+# https://django-redis-chs.readthedocs.io/zh_CN/latest/
+
+# redis配置
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/1",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    "session": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/0",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    "code": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/2",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    "history": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/3",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    "carts": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/4",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+}
+# session状态保持信息存储位置
+# SESSION_ENGINE = "django.contrib.sessions.backends.cache"
+# SESSION_CACHE_ALIAS = "session"

@@ -16,5 +16,5 @@ Including another URLconf
 from django.conf.urls import url, include
 
 urlpatterns = [
-    # url('^meiduo_admin/$', include('meiduo_admin.urls')),
+    url('^meiduo_admin/', include('meiduo_admin.urls')),
 ]
