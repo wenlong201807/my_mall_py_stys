@@ -30,7 +30,15 @@ class OrderInfo(BaseModel):
         (6, "已取消"),
     )
     order_id = models.CharField(max_length=64, primary_key=True, verbose_name="订单号")
+    """
+        # 外健关联的关系: 一个用户可以下多个订单，一个订单只能属于一个用户
+        # user.orderInfo_set.all() 可以获取用户的所有订单，
+        # User.objects.filter(orderinfo_address) [address 是orderinfo 表内的任意字段以及 OrderInfo 继承的父级 BaseModel 对应表内的字段]
+        外健关联时 添加属性 related_name="haha" 那么在调用的时候，OrderInfo === haha 等效 
+        即: haha__address === orderinfo__address
+    """
     user = models.ForeignKey(User, on_delete=models.PROTECT, verbose_name="下单用户")
+    # user = models.ForeignKey(User, related_name="haha" on_delete=models.PROTECT, verbose_name="下单用户")
     address = models.ForeignKey(Address, on_delete=models.PROTECT, verbose_name="收货地址")
     total_count = models.IntegerField(default=1, verbose_name="商品总数")
     total_amount = models.DecimalField(max_digits=10, decimal_places=2, verbose_name="商品总金额")
