@@ -1,11 +1,14 @@
 from rest_framework.views import APIView
+from rest_framework.generics import ListAPIView
 from rest_framework.response import Response
 from users.models import User
 from datetime import date, timedelta
 from rest_framework.permissions import IsAdminUser
+from goods.models import CategoryVisitCount
+from . import home_serializers
 
 
-# 5, 获取月增用户
+# 1, 获取月增用户
 class UserMonthIncrementView(APIView):
     # 1, 设置管理员权限
     permission_classes = [IsAdminUser]
@@ -34,3 +37,21 @@ class UserMonthIncrementView(APIView):
 
         # 2, 返回响应
         return Response(count_list)
+
+
+# 2, 获取商品日分类访问量
+class GoodCategoryDayView(ListAPIView):
+    """
+    ListAPIView:
+    1, 父类是GenericAPIView + ListModelMixin ,
+    2, 提供了get方法, 获取所有数据
+
+    只要是能够用到序列化器的，就可以使用二级以上的视图
+
+    serializer_class 将数据源转化成指定的序列化数据
+    queryset 数据源，来源于数据表中的。
+
+    业务需求规定： 过滤出今天查看的商品，其他日期的访问量不展示
+    """
+    serializer_class = home_serializers.CategoryVisitCountSerializer
+    queryset = CategoryVisitCount.objects.filter(date=date.today()).all()
