@@ -45,3 +45,15 @@ class UserDayIncrementView(APIView):
         return Response({
             "count": count
         })
+
+
+# 4, 获取日下单用户
+class UserDayOrdersView(APIView):
+    def get(self, request):
+        # 1, 查询用户日下单用户数量
+        count = User.objects.filter(orderinfo__create_time__gte=date.today(), is_staff=False).count()
+
+        # 2, 返回响应
+        return Response({
+            "count": count
+        })
