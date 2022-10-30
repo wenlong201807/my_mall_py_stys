@@ -1,4 +1,4 @@
-from goods.models import GoodsChannel
+from goods import GoodsChannel
 
 
 def get_categories():

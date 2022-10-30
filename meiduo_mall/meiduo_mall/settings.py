@@ -40,10 +40,10 @@ INSTALLED_APPS = [
     # 'users', # 展开时候就是下面的形式
     'users.apps.UsersConfig',
     'orders.apps.OrdersConfig',
+    'goods.apps.GoodsConfig',
     # 'oauth.apps.OauthConfig',
     # 'areas.apps.AreasConfig',
     # 'contents.apps.ContentsConfig',
-    # 'goods.apps.GoodsConfig',
     # 'haystack',
     # 'pays.apps.PaysConfig',
 
