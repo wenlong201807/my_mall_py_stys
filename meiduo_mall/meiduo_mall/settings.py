@@ -172,7 +172,8 @@ import datetime
 JWT_AUTH = {
     # 指定JWT的有效期
     'JWT_EXPIRATION_DELTA': datetime.timedelta(days=1),
-    # 'JWT_RESPONSE_PAYLOAD_HANDLER': 'meiduo_admin.utils.my_response.my_jwt_response_payload_handler'
+    # 自定义返回登陆成功后的接口数据结构
+    'JWT_RESPONSE_PAYLOAD_HANDLER': 'meiduo_admin.utils.my_response.my_jwt_response_payload_handler'
 }
 
 # 设置自定义的认证模型类
