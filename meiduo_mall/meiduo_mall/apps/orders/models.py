@@ -1,6 +1,7 @@
 from django.db import models
 from meiduo_mall.utils.my_model import BaseModel
 from users.models import User, Address
+from goods.models import SKU
 
 
 class OrderInfo(BaseModel):
@@ -53,3 +54,31 @@ class OrderInfo(BaseModel):
 
     def __str__(self):
         return self.order_id
+
+
+class OrderGoods(BaseModel):
+    """订单商品"""
+    SCORE_CHOICES = (
+        (0, '0分'),
+        (1, '20分'),
+        (2, '40分'),
+        (3, '60分'),
+        (4, '80分'),
+        (5, '100分'),
+    )
+    order = models.ForeignKey(OrderInfo, related_name='skus', on_delete=models.CASCADE, verbose_name="订单")
+    sku = models.ForeignKey(SKU, on_delete=models.PROTECT, verbose_name="订单商品")
+    count = models.IntegerField(default=1, verbose_name="数量")
+    price = models.DecimalField(max_digits=10, decimal_places=2, verbose_name="单价")
+    comment = models.TextField(default="", verbose_name="评价信息")
+    score = models.SmallIntegerField(choices=SCORE_CHOICES, default=5, verbose_name='满意度评分')
+    is_anonymous = models.BooleanField(default=False, verbose_name='是否匿名评价')
+    is_commented = models.BooleanField(default=False, verbose_name='是否评价了')
+
+    class Meta:
+        db_table = "tb_order_goods"
+        verbose_name = '订单商品'
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return self.sku.name
