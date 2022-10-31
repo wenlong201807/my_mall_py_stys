@@ -15,11 +15,11 @@ class UserView(ListAPIView, CreateAPIView):
 
     # queryset = User.objects.filter(is_staff=False).all()
 
-    # 1,重写get_queryset方法,提供数据
+    # 1,重写get_queryset方法,提供数据(自定义查询表字段)
     def get_queryset(self):
 
         # 1,获取keyword查询参数
-        keyword = self.request.query_params.get("keyword")
+        keyword = self.request.query_params.get("keyword")  # 获取前端传入的参数
 
         # 2,判断是否有keyword
         if keyword:
