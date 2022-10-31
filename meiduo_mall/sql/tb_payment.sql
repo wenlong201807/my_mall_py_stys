@@ -1,0 +1,3 @@
+INSERT INTO `tb_payment` (`id`, `create_time`, `update_time`, `out_trade_no`, `trade_no`) VALUES (1, '2020-02-11 07:08:33.372470', '2020-02-11 07:08:33.372562', '202002110624528851988788', '2020021122001468681000166554');
+INSERT INTO `tb_payment` (`id`, `create_time`, `update_time`, `out_trade_no`, `trade_no`) VALUES (3, '2020-02-12 01:19:38.272476', '2020-02-12 01:19:38.272526', '202002120118458510325738', '2020021222001468681000167967');
+INSERT INTO `tb_payment` (`id`, `create_time`, `update_time`, `out_trade_no`, `trade_no`) VALUES (4, '2020-02-12 03:00:02.037622', '2020-02-12 03:00:02.037739', '202002120225455351276428', '2020021222001468681000169189');

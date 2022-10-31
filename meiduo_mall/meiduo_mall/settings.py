@@ -41,11 +41,11 @@ INSTALLED_APPS = [
     'users.apps.UsersConfig',
     'orders.apps.OrdersConfig',
     'goods.apps.GoodsConfig',
-    # 'oauth.apps.OauthConfig',
-    # 'areas.apps.AreasConfig',
-    # 'contents.apps.ContentsConfig',
+    'oauth.apps.OauthConfig',
+    'areas.apps.AreasConfig',
+    'contents.apps.ContentsConfig',
     # 'haystack',
-    # 'pays.apps.PaysConfig',
+    'pays.apps.PaysConfig',
 
     'corsheaders',  # 跨域模块
 ]

@@ -1,0 +1,11 @@
+INSERT INTO `tb_channel_group` (`id`, `create_time`, `update_time`, `name`) VALUES (1, '2018-04-09 08:13:20.507741', '2018-04-09 08:12:20.507787', '手机数码');
+INSERT INTO `tb_channel_group` (`id`, `create_time`, `update_time`, `name`) VALUES (2, '2018-04-09 09:04:06.994304', '2018-04-09 08:12:06.884389', '电脑家电');
+INSERT INTO `tb_channel_group` (`id`, `create_time`, `update_time`, `name`) VALUES (3, '2018-04-09 08:04:09.881104', '2018-04-09 08:10:09.884389', '家居家装');
+INSERT INTO `tb_channel_group` (`id`, `create_time`, `update_time`, `name`) VALUES (4, '2018-05-09 08:04:06.884304', '2018-04-09 10:04:06.884389', '男女童装');
+INSERT INTO `tb_channel_group` (`id`, `create_time`, `update_time`, `name`) VALUES (5, '2018-04-09 08:04:10.884304', '2018-04-09 01:04:06.884389', '女鞋箱包');
+INSERT INTO `tb_channel_group` (`id`, `create_time`, `update_time`, `name`) VALUES (6, '2018-04-09 08:19:16.884304', '2018-04-09 08:18:06.884389', '手机数码');
+INSERT INTO `tb_channel_group` (`id`, `create_time`, `update_time`, `name`) VALUES (7, '2018-04-09 08:10:06.884304', '2018-04-09 08:10:06.884389', '运动户外');
+INSERT INTO `tb_channel_group` (`id`, `create_time`, `update_time`, `name`) VALUES (8, '2018-04-09 10:04:06.884304', '2018-04-09 09:04:06.884389', '房产汽车');
+INSERT INTO `tb_channel_group` (`id`, `create_time`, `update_time`, `name`) VALUES (9, '2018-04-11 08:04:06.884304', '2018-04-10 08:04:06.884389', '食品生鲜');
+INSERT INTO `tb_channel_group` (`id`, `create_time`, `update_time`, `name`) VALUES (10, '2018-04-09 08:14:06.884304', '2018-04-09 04:04:06.784389', '图书音像');
+INSERT INTO `tb_channel_group` (`id`, `create_time`, `update_time`, `name`) VALUES (11, '2018-04-09 08:14:06.884304', '2018-04-09 08:06:06.884389', '旅游生活');
