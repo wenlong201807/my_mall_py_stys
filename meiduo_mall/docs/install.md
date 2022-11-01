@@ -4,6 +4,7 @@ my-mac mysql5.7 第一次启动过程
 安装到可以使用
 1. 检查是否存在mysq  mysql --version
 2. brew命令行安装  brew install mysql@5.7 
+   重新安装命令 brew reinstall mysql@5.7
   # 安装成功时，可以看见安装目录，复制下来
 3. 配置全局变量 
   open .zshrc 文件 配置文件可能是 .bash_profile
@@ -15,15 +16,58 @@ my-mac mysql5.7 第一次启动过程
 5. 第四步，可能会执行失败，此时，需要先启动mysql
   启动命令: 
   mysql.server start
-  mysql -h localhost -u root -p # 第一次不用输入密码，直接按回车键进入
+  mysql -h localhost -u root -p # 第一次不用输入密码，直接按回车键进入0
   输入 use mysql; ，修改root的密码：
   update user set authentication_string=password('新密码') where user='root';
   更新 flush privileges;
   退出：quit;
   再次重启mysql： mysql.server start
+  停止mysql： mysql.server stop
   测试是否成功就是是否登陆成功咯 mysql -u root -p 此时就可以输入新密码了
   # 第5步，参考资料 https://www.cnblogs.com/winton-nfs/p/12956811.html
 
+6. 实际情况
+  公司电脑&自己电脑 mysql  root  13579
+  可全局执行指令登录  mysql -uroot -p13579
+
+7. mac 卸载 mysql
+  sudo rm /usr/local/mysql
+  sudo rm -rf /usr/local/mysql*
+  sudo rm -rf /Library/StartupItems/MySQLCOM
+  sudo rm -rf /Library/PreferencePanes/My*
+  sudo vim /etc/hostconfig  (and removed the line MYSQLCOM=-YES-)
+  sudo rm -rf ~/Library/PreferencePanes/My*
+  sudo rm -rf /Library/Receipts/mysql*
+  sudo rm -rf /Library/Receipts/MySQL*
+  sudo rm -rf /var/db/receipts/com.mysql.*
+
+8. 跳过密码直接登录mysql
+  1、关闭mysql服务 mysql.server stop
+  2、进入mysql各种执行文件的 目录
+    - 新版本: cd /usr/local/mysql/bin
+    - 老版本: cd /usr/local/bin
+  3、获取权限
+    - sudo macUserName(终端命令行@前面的名字)
+      + case: sudo wenlong
+  4、重启服务器
+    - mysql.server start
+    - ./mysqld_safe --skip-grant-tables &
+  5、重开个终端
+    - mysql -u root -p [然后会提示输入密码，回车就行。这个密码不用管，请忘掉！]
+    - 此终端可以登录mysql 
+      $mysql > ...
+  6、获取权限
+    - flush privileges;
+  7、设置新密码
+    - [进入mysql数据表] use mysql;
+    - [修改root的密码：]
+      + update user set authentication_string=password('新密码') where user='root';
+    - [更新密码后，需要刷新mysql权限纪录] flush privileges;
+    - [操作完成，退出并重新(新密码)登录]
+      退出mysql: quit;
+      停止mysql: mysql.server stop
+      再次重启mysql: mysql.server start
+      重新登录mysql: mysql -u root -p  ->[按回车] 输入mysql密码 157351(新密码)
 
   新建数据库时
   选择字符集 utf8 -- utf8-8 unicode
