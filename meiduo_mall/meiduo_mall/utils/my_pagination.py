@@ -15,7 +15,9 @@ class MyPageNumberPagination(PageNumberPagination):
     # 重写响应值的方法
     def get_paginated_response(self, data):
         return Response(OrderedDict([
+            ('count', self.page.paginator.count),
             ('page', self.page.number),
             ('pages', self.page.paginator.num_pages),
-            ('lists', data)
+            ('lists', data),
+            ('pagesize', self.max_page_size),
         ]))

@@ -1,0 +1,2 @@
+class PageNum:
+    pass
