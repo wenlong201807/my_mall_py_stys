@@ -17,17 +17,18 @@ urlpatterns = [
     # 用户管理
     url(r'^users/$', user_views.UserView.as_view()),
 
-    # sku 管理 /categories
+    # sku 管理 /categories 对应页面位置: sku管理 -> 添加 -> 分类下拉框
     url(r'^skus/categories/$', sku_views.SKUCategoryView.as_view()),
 
-    # goods/simple/
+    # goods/simple/  对应页面位置: sku管理 -> 添加 -> spu下拉框
     url(r'^goods/simple/$', sku_views.GoodSimpleView.as_view()),
 
-    # goods/3/specs/
+    # goods/3/specs/  对应页面位置: sku管理 -> 添加 -> spu下拉框 内容切换后，要调用此接口。
+    # 获取子级选项(屏幕尺寸、颜色、版本) 选项类型个数动态化 及其选项列表
     url(r'^goods/(?P<spu_id>\d+)/specs/$', sku_views.GoodSpecsView.as_view()),
 ]
 
-# 1, skus
+# 1, skus 对应页面位置: 左侧菜单 -> 商品管理 -> sku管理
 router = DefaultRouter()
 router.register("skus", sku_views.SKUModelViewSet, basename="skus")
 urlpatterns += router.urls

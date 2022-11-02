@@ -29,6 +29,7 @@ class SKUModelViewSet(ModelViewSet):
 class SKUCategoryView(ListAPIView):
     pagination_class = None
     serializer_class = sku_serializers.SKUCategorySerializer
+    #  如何约定是三级视图呢？根据约定的数据库内容约定： subs=None 或者  属于目标数据源
     queryset = GoodsCategory.objects.filter(subs=None).all()
 
 
@@ -41,6 +42,11 @@ class GoodSimpleView(ListAPIView):
 
 # , sku, spu, specs
 class GoodSpecsView(ListAPIView):
+    """
+    /meiduo_admin/goods/1/specs/
+    接口路由中的参数? 如何获取 -> 两个需要一致 spu_id
+    self.kwargs.get("spu_id") <-> url(r'^goods/(?P<spu_id>\d+)/specs/$',
+    """
     pagination_class = None
     serializer_class = sku_serializers.GoodSpecsSerializer
 
