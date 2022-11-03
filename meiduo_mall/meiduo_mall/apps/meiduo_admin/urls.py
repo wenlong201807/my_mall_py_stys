@@ -4,7 +4,7 @@ from rest_framework.routers import DefaultRouter
 from meiduo_admin.home import home_views
 from meiduo_admin.user import user_views
 from meiduo_admin.sku import sku_views
-from meiduo_admin.views import specs
+from meiduo_admin.views import specs, images
 
 urlpatterns = [
     url(r'^authorizations/$', obtain_jwt_token),  # 内部对 用户名和密码做了校验
@@ -21,6 +21,9 @@ urlpatterns = [
     # sku 管理 /categories 对应页面位置: sku管理 -> 添加 -> 分类下拉框
     url(r'^skus/categories/$', sku_views.SKUCategoryView.as_view()),
 
+    # ------------图片路由————————————
+    url(r'^skus/simple/$', images.ImagesView.as_view({'get': 'simple'})),
+
     # goods/simple/  对应页面位置: sku管理 -> 添加 -> spu下拉框
     url(r'^goods/simple/$', sku_views.GoodSimpleView.as_view()),
     # ------------规格路由表-----------两种方式都可以实现
@@ -34,6 +37,11 @@ urlpatterns = [
 # ----------规格表路由------
 router = DefaultRouter()
 router.register('goods/specs', specs.SpecsView, basename='specs')
+urlpatterns += router.urls
+
+# -------图片表路由------
+router = DefaultRouter()
+router.register('skus/images', images.ImagesView, basename='images')
 urlpatterns += router.urls
 
 # 1, skus 对应页面位置: 左侧菜单 -> 商品管理 -> sku管理
