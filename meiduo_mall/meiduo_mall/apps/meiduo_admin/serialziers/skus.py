@@ -8,8 +8,8 @@ class SKUSpecificationSerializer(serializers.ModelSerializer):
     """
             sku具体规格表数据
     """
-    spec_id = serializers.IntegerField()
-    option_id = serializers.IntegerField()
+    spec_id = serializers.IntegerField()  # 名字来源于外键关联
+    option_id = serializers.IntegerField()  # 名字来源于外键关联
 
     class Meta:
         model = SKUSpecification
@@ -25,8 +25,14 @@ class SKUSerialzier(serializers.ModelSerializer):
     spu_id = serializers.IntegerField()
     category_id = serializers.IntegerField()
 
-    # specificationoption_set {}.spec_id
+    # specificationoption_set {}.spec_id 嵌套序列化返回过程[难点]
+    # 简单版 specs = serializers.PrimaryKeyRelatedField()
+    # 完整版 specs 来源 [核心点]
+    # 1 SKUSpecificationSerializer 序列化对应的model 是 SKUSpecification
+    # 2 SKUSpecification 表的外键关联 related_name='specs',
+    # -> sku = models.ForeignKey(SKU, related_name='specs',
     specs = SKUSpecificationSerializer(read_only=True, many=True)
+    # read_only=True 只是返回给页面，没写入库中 many=True 一对多的关系
 
     class Meta:
         model = SKU
