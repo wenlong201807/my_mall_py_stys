@@ -113,7 +113,7 @@ class SKU(BaseModel):
 class SKUImage(BaseModel):
     """SKU图片"""
     sku = models.ForeignKey(SKU, on_delete=models.CASCADE, verbose_name='sku')
-    image = models.ImageField(verbose_name='图片')
+    image = models.ImageField(default='', verbose_name='图片')
 
     class Meta:
         db_table = 'tb_sku_image'

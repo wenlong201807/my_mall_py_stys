@@ -4,7 +4,7 @@ from users.models import User, Address
 from goods.models import SKU
 
 
-class OrderInfo(BaseModel):
+class OrderInfo(BaseModel):  # 主表
     """订单信息"""
     PAY_METHODS_ENUM = {
         "CASH": 1,
@@ -66,6 +66,7 @@ class OrderGoods(BaseModel):
         (4, '80分'),
         (5, '100分'),
     )
+    # 副表
     order = models.ForeignKey(OrderInfo, related_name='skus', on_delete=models.CASCADE, verbose_name="订单")
     sku = models.ForeignKey(SKU, on_delete=models.PROTECT, verbose_name="订单商品")
     count = models.IntegerField(default=1, verbose_name="数量")

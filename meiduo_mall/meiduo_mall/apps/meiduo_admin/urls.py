@@ -4,7 +4,7 @@ from rest_framework.routers import DefaultRouter
 from meiduo_admin.home import home_views
 from meiduo_admin.user import user_views
 from meiduo_admin.sku import sku_views
-from meiduo_admin.views import specs, images, skus
+from meiduo_admin.views import specs, images, skus, orders
 
 urlpatterns = [
     url(r'^authorizations/$', obtain_jwt_token),  # 内部对 用户名和密码做了校验
@@ -54,4 +54,9 @@ urlpatterns += router.urls
 router = DefaultRouter()
 router.register("skus", skus.SKUVIew, basename="skus")
 # router.register("skus", sku_views.SKUModelViewSet, basename="skus")
+urlpatterns += router.urls
+
+# --------订单路由--------
+router = DefaultRouter()
+router.register('orders', orders.OrderView, basename='orders')
 urlpatterns += router.urls
