@@ -22,6 +22,7 @@ class SKUVIew(ModelViewSet):
         if self.request.query_params.get('keyword') == '':
             return SKU.objects.all()
 
+        # put 错误 无搜索条件时，点击修改按钮，内部继承的方法会走 queryset 方法，会报错
         elif self.request.query_params.get('keyword') is None:
             return SKU.objects.all()
 
