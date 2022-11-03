@@ -14,6 +14,7 @@ class OrderView(ReadOnlyModelViewSet):
     pagination_class = MyPageNumberPagination
     permission_classes = [IsAdminUser]
 
+    # 搜索查询单条数据时，内部运行机制
     # def get_object(self):
     #     queryset=self.get_queryset()
     #
@@ -26,6 +27,7 @@ class OrderView(ReadOnlyModelViewSet):
         if self.request.query_params.get('keyword') == '':
             return OrderInfo.objects.all()
 
+        # 如果查询条件为空时，走这里
         elif self.request.query_params.get('keyword') is None:
             return OrderInfo.objects.all()
 
