@@ -52,6 +52,8 @@ class SKUVIew(ModelViewSet):
 
         # 1、查询spu对象
         spu = SPU.objects.get(id=pk)
+        # SKU model 表中 关联的SPU 的字段是 spu, 因此 -> spu.specs.all()
+        # spu = models.ForeignKey(SPU, on_delete=models.CASCADE, verbose_name='商品')
         # 2、关联查询spu所关联的规格表
         data = spu.specs.all()
         # 3、序列化返回规格信息
