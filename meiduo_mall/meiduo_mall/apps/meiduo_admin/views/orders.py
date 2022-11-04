@@ -34,12 +34,13 @@ class OrderView(ReadOnlyModelViewSet):
         else:
             return OrderInfo.objects.filter(order_id__contains=self.request.query_params.get('keyword'))
 
-    @action(methods=['put'], detail=True)
+    @action(methods=['put'], detail=True)  # 自定义生成路由规则，methods=['put']请求方式, detail=True 是否需要url正则匹配
     def status(self, request, pk):
         """
-            修改订单状态
+            修改订单状态 -> 在实际操作中，是需要接入第三方快递平台的信息的
+            比如：走的是顺丰快递，那么，这个订单运输的快递信息，就要接入 顺丰开放平台 https://open.sf-express.com/
         :param request:
-        :PK  订单编号
+        :PK  订单编号 -> url里头 通过正则匹配获取
         :return:
         """
 
@@ -55,7 +56,7 @@ class OrderView(ReadOnlyModelViewSet):
         if status is None:
             return Response({'error': '缺少状态值'})
         order.status = status
-        order.save()
+        order.save()  # 保存到数据库中
         # 3、返回修改信息
         return Response(
             {
