@@ -24,7 +24,12 @@ SECRET_KEY = 'django-insecure-ics2=2ubsx^+zw9qs0-yf89iqfert65$h)rski(0g$#k#2917j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# 上线前需要添加生产环境的服务器ip 或者域名
+ALLOWED_HOSTS = [
+    '47.98.181.79',
+    '127.0.0.1',
+    'wenlong.live'
+]
 
 # Application definition
 
@@ -66,6 +71,10 @@ MIDDLEWARE = [
 CORS_ORIGIN_WHITELIST = (
     'http://127.0.0.1:8080',
     'http://localhost:8080',
+    'http://localhost:3000',
+    'http://192.168.4.15:3000',
+    'http://47.98.181.79:6010',
+    'http://wenlong.live:6010',
 )
 CORS_ALLOW_CREDENTIALS = True  # 允许携带cookie
 
