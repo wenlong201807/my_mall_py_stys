@@ -4,7 +4,7 @@ from rest_framework.routers import DefaultRouter
 from meiduo_admin.home import home_views
 from meiduo_admin.user import user_views
 from meiduo_admin.sku import sku_views
-from meiduo_admin.views import specs, images, skus, orders
+from meiduo_admin.views import specs, images, skus, orders, permissions
 
 urlpatterns = [
     url(r'^authorizations/$', obtain_jwt_token),  # 内部对 用户名和密码做了校验
@@ -38,6 +38,10 @@ urlpatterns = [
     # goods/3/specs/  对应页面位置: sku管理 -> 添加 -> spu下拉框 内容切换后，要调用此接口。
     # 获取子级选项(屏幕尺寸、颜色、版本) 选项类型个数动态化 及其选项列表
     # url(r'^goods/(?P<spu_id>\d+)/specs/$', sku_views.GoodSpecsView.as_view()),
+
+    # --------权限路由--------
+    url(r'^permission/content_types/$', permissions.PermissionsView.as_view({'get': 'content_type'})),
+
 ]
 
 # ----------规格表路由------
@@ -59,4 +63,9 @@ urlpatterns += router.urls
 # --------订单路由--------
 router = DefaultRouter()
 router.register('orders', orders.OrderView, basename='orders')
+urlpatterns += router.urls
+
+# --------权限路由--------
+router = DefaultRouter()
+router.register('permission/perms', permissions.PermissionsView, basename='perms')
 urlpatterns += router.urls
