@@ -12,7 +12,8 @@ class ContentTypeSerialzier(serializers.ModelSerializer):
     """
         权限类型序列化器
     """
-    name = serializers.CharField(read_only=True)
+    # 对应模型表中没有定义name 但是 __str__ 有name字段，就可以直接使用
+    name = serializers.CharField(read_only=True)  # read_only=True 只返回前端的数据
 
     class Meta:
         model = ContentType  # 指定根据那个模型类生成序列化字段
