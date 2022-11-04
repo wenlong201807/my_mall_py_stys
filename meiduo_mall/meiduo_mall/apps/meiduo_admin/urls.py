@@ -4,7 +4,7 @@ from rest_framework.routers import DefaultRouter
 from meiduo_admin.home import home_views
 from meiduo_admin.user import user_views
 from meiduo_admin.sku import sku_views
-from meiduo_admin.views import specs, images, skus, orders, permissions, group
+from meiduo_admin.views import specs, images, skus, orders, permissions, group, admin
 
 urlpatterns = [
     url(r'^authorizations/$', obtain_jwt_token),  # 内部对 用户名和密码做了校验
@@ -44,6 +44,8 @@ urlpatterns = [
 
     url(r'^permission/simple/$', group.GroupView.as_view({'get': 'simple'})),
 
+    url(r'^permission/groups/simple/$', admin.AdminView.as_view({'get': 'simple'})),
+
 ]
 
 # ----------规格表路由------
@@ -75,5 +77,10 @@ urlpatterns += router.urls
 # --------分组路由--------
 router = DefaultRouter()
 router.register('permission/groups', group.GroupView, basename='groups')
-print(router.urls)
+urlpatterns += router.urls
+
+# --------管理员路由--------
+router = DefaultRouter()
+router.register('permission/admins', admin.AdminView, basename='admin')
+# print(router.urls)
 urlpatterns += router.urls
