@@ -1,5 +1,5 @@
 <template>
-<div class="auther_table_wrap"> 
+<div class="auther_table_wrap">
   <el-table
       :data="options"
       border
@@ -39,7 +39,7 @@
         <el-form :model="optionsForm" status-icon :rules="rulesSpecsForm" ref="optionsForm" label-width="100px">
           <el-form-item label="规格名称：" prop="name">
             <el-input type="text" v-model="optionsForm.name" autocomplete="off" size="small"></el-input>
-          </el-form-item>          
+          </el-form-item>
           <el-form-item label="规格：" prop="spec_id">
             <el-select v-model="optionsForm.spec_id" size="small">
               <el-option
@@ -70,10 +70,10 @@ export default {
     var validateName = (rule, value, callback) => {
         if (value === '') {
           callback(new Error('规格名不能为空'));
-        } else {         
-          callback()          
+        } else {
+          callback()
         }
-    }; 
+    };
     return {
       pop_show:false,
       edit_id:'',
@@ -100,7 +100,7 @@ export default {
             responseType: 'json',
         })
         .then(dat=>{
-            //console.log(dat);
+            console.log(88, dat);
             this.optionsForm.name = dat.data.value;
             this.optionsForm.spec_id = dat.data.spec_id;
         }).catch(err=>{
@@ -115,15 +115,15 @@ export default {
             headers: {
               'Authorization': 'JWT ' + token
             },
-            responseType: 'json'           
+            responseType: 'json'
         }).then(dat=>{
           this.$message({
             type: 'success',
             message: '修改规格选项成功!'
-          }); 
+          });
         	this.pop_show = false;
-          this.$emit('fnResetTable');         
-          this.resetForm('optionsForm');          
+          this.$emit('fnResetTable');
+          this.resetForm('optionsForm');
         }).catch(err=>{
         	console.log(err.response);
         })
@@ -139,7 +139,7 @@ export default {
               headers: {
                 'Authorization': 'JWT ' + token
               },
-              responseType:'json'           
+              responseType:'json'
           }).then(dat=>{
             this.$message({
               type: 'success',
@@ -158,8 +158,8 @@ export default {
           this.$message({
             type: 'info',
             message: '已取消删除'
-          });          
-        });  		
+          });
+        });
   	},
     fnGetSpecs(){
       this.axios.get(cons.apis + '/goods/specs/simple/', {
@@ -169,8 +169,10 @@ export default {
         responseType: 'json',
       })
       .then(dat=>{
-          this.specs_list = dat.data;        
-      }).catch(err=>{      
+        debugger
+          this.specs_list = dat.data;
+      }).catch(err=>{
+        this.specs_list = []
          console.log(err.response);
       });
     },
@@ -179,7 +181,8 @@ export default {
     }
   },
   mounted(){
-    this.fnGetSpecs();
+    console.log('子组件', this.options)
+    // this.fnGetSpecs();
   }
 }
 </script>
