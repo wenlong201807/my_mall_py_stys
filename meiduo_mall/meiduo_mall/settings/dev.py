@@ -165,8 +165,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
+# 静态文件访问的url路径
 STATIC_URL = '/static/'
-
+# 静态文件的磁盘路径
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+# test img -> http://127.0.0.1:8000/static/images/adv01.jpg
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 

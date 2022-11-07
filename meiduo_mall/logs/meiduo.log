@@ -1,0 +1,18 @@
+INFO 2022-11-07 04:11:21,654 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 04:12:27,006 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 04:30:03,802 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 04:31:39,839 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 04:32:41,249 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 06:25:26,226 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 06:26:33,195 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 06:40:47,157 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2022-11-07 06:40:47,411 autoreload 637 Watching for file changes with StatReloader
+WARNING 2022-11-07 06:42:41,888 log 224 Not Found: /
+WARNING 2022-11-07 06:42:41,889 basehttp 161 "GET / HTTP/1.1" 404 2072
+WARNING 2022-11-07 06:42:41,896 log 224 Not Found: /
+WARNING 2022-11-07 06:42:41,896 basehttp 161 "GET / HTTP/1.1" 404 2072
+WARNING 2022-11-07 06:42:42,050 log 224 Not Found: /favicon.ico
+WARNING 2022-11-07 06:42:42,051 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2123
+INFO 2022-11-07 06:43:24,191 basehttp 161 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2022-11-07 06:43:53,823 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2022-11-07 06:43:54,077 autoreload 637 Watching for file changes with StatReloader
