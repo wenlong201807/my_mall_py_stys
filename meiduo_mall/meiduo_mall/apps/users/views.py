@@ -5,6 +5,7 @@ import re
 from .models import User
 from django.contrib.auth import login
 from . import constants
+from django.db import DatabaseError
 
 
 class RegisterView(View):
@@ -22,7 +23,8 @@ class RegisterView(View):
 
         # 验证
         # 1.非空
-        if not all([username, password, password2, mobile, sms_code, allow]):
+        if not all([username, password, password2, mobile, allow]):
+        # if not all([username, password, password2, mobile, sms_code, allow]):
             return http.HttpResponseForbidden('填写数据不完整')
         # 2.用户名
         if not re.match('^[a-zA-Z0-9_-]{5,20}$', username):
@@ -40,6 +42,9 @@ class RegisterView(View):
             return http.HttpResponseForbidden('手机号错误')
         if User.objects.filter(mobile=mobile).count() > 0:
             return http.HttpResponseForbidden('手机号存在')
+        # 是否勾选
+        if allow != 'on':
+            return http.HttpResponseForbidden('请勾选用户协议')
         # 短信验证码
         # 1.读取redis中的短信验证码
         # redis_cli = get_redis_connection('sms_code')
@@ -56,17 +61,22 @@ class RegisterView(View):
 
         # 处理
         # 1.创建用户对象
-        user = User.objects.create_user(
-            username=username,
-            password=password,
-            mobile=mobile
-        )
+
+        # 保存注册数据, 是注册业务的核心
+        try:
+            user = User.objects.create_user(
+                username=username,
+                password=password,
+                mobile=mobile
+            )
+        except DatabaseError:
+            return render(request, 'register.html', {'register_errmsg': '注册失败'})
         # 2.状态保持
-        login(request, user)
+        # login(request, user)
 
         # 向cookie中写用户名，用于客户端显示
-        response = redirect('/')
-        response.set_cookie('username', username, max_age=constants.USERNAME_COOKIE_EXPIRES)
+        # response = redirect('/')
+        # response.set_cookie('username', username, max_age=constants.USERNAME_COOKIE_EXPIRES)
 
-        # 响应
-        return response
+        # 响应结果，重定向到首页
+        return http.HttpResponse('注册成功，重定向到首页')

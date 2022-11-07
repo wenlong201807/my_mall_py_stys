@@ -1,7 +1,7 @@
 var vm = new Vue({
     el: '#app',
     // 修改Vue变量的读取语法，避免和django模板语法冲突
-    delimiters: ['[[', ']]'],
+    delimiters: ['{{', '}}'],
     data: {
         host: host,
         error_name: false,
@@ -214,35 +214,36 @@ var vm = new Vue({
         },
         // 表单提交
         on_submit(){
-            this.check_username();
-            this.check_pwd();
-            this.check_cpwd();
-            this.check_phone();
-            this.check_sms_code();
-            this.check_allow();
+            // this.check_username();
+            // this.check_pwd();
+            // this.check_cpwd();
+            // this.check_phone();
+            // this.check_sms_code();
+            // this.check_allow();
 
+            // this.error_sms_code == true ||
             if (this.error_name == true || this.error_password == true || this.error_check_password == true
-                || this.error_phone == true || this.error_sms_code == true || this.error_allow == true) {
+                || this.error_phone == true || this.error_allow == true) {
                 // 不满足注册条件：禁用表单
                 window.event.returnValue = false;
             }
 
-            // var url = this.host + '/register/';
-            // axios.post(url, {
-            //     username: this.username,
-            //     password: this.password,
-            //     password2: this.password2,
-            //     mobile: this.mobile,
-            //     // 'image_code':this.image_code,
-            //     sms_code: this.sms_code,
-            //     allow: this.allow
-            // }, {
-            //     responseType: 'json'
-            // })
-            //     .then(response => {
-            //     })
-            //     .catch(error => {
-            //     });
+            var url = this.host + '/register/';
+            axios.post(url, {
+                username: this.username,
+                password: this.password,
+                password2: this.password2,
+                mobile: this.mobile,
+                // 'image_code':this.image_code,
+                sms_code: this.sms_code,
+                allow: this.allow
+            }, {
+                responseType: 'json'
+            })
+                .then(response => {
+                })
+                .catch(error => {
+                });
         }
     }
 });
