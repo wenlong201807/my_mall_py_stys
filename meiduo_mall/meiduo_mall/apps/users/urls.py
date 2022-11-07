@@ -1,7 +1,9 @@
 from django.conf.urls import url
 from . import views
+
 urlpatterns = [
-    # url(r'^register/$',views.RegisterView.as_view()),
+    # 用户注册 添加命名空间 reverse(users:register) == '/register/'
+    url(r'^register/$', views.RegisterView.as_view(), name='register'),
     # url(r'^usernames/(?P<username>\w{5,20})/count/$',views.CheckUsernameView.as_view()),
     # url(r'^mobiles/(?P<mobile>\d+)/count/$',views.CheckMobileView.as_view()),
     # url(r'^login/$',views.LoginView.as_view()),

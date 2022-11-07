@@ -17,4 +17,5 @@ from django.conf.urls import url, include
 
 urlpatterns = [
     url('^meiduo_admin/', include('meiduo_admin.urls')),
+    url(r'^', include(('users.urls', 'users'), namespace='users')),  # 增加命名空间
 ]

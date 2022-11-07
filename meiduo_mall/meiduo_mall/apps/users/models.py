@@ -17,7 +17,12 @@ class User(AbstractUser):
 
     # 4, 指定表名信息
     class Meta:
-        db_table = "tb_users"
+        db_table = "tb_users"  # 数据库中对应的表名
+        verbose_name = '用户'
+        verbose_name_plural = verbose_name
+
+    def ___str__(self):
+        return self.username  # 可调试使用
 
 
 # 2, 用户收货地址模型

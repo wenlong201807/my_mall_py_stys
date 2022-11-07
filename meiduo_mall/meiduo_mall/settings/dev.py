@@ -14,10 +14,14 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os  # 操作系统ubuntu模块
-
+import sys  # python模块
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
-print(BASE_DIR)
+# BASE_DIR = Path(__file__).resolve().parent.parent
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# 指定应用的导包路径为meiduo_mall/apps
+sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))  # 灵活
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
@@ -42,7 +46,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'rest_framework',
-    'django.contrib.auth',
+    'django.contrib.auth',  # django 默认用户认证模型
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
@@ -198,8 +202,8 @@ JWT_AUTH = {
     'JWT_RESPONSE_PAYLOAD_HANDLER': 'meiduo_admin.utils.my_response.my_jwt_response_payload_handler'
 }
 
-# 设置自定义的认证模型类
-AUTH_USER_MODEL = 'users.User'
+# 设置自定义的认证模型类 语法规则 -> '子应用.用户模型类'
+AUTH_USER_MODEL = 'users.User'  # 默认值是 'auth.User'
 
 # 设置自定义认证方法
 # AUTHENTICATION_BACKENDS = ['meiduo_mall.utils.my_authenticate.MyModelBackend']

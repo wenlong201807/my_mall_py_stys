@@ -16,3 +16,49 @@ WARNING 2022-11-07 06:42:42,051 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 212
 INFO 2022-11-07 06:43:24,191 basehttp 161 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
 INFO 2022-11-07 06:43:53,823 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
 INFO 2022-11-07 06:43:54,077 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 07:03:09,843 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2022-11-07 07:15:48,908 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 07:17:43,545 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2022-11-07 07:17:43,811 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 07:19:11,638 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2022-11-07 07:19:11,918 autoreload 637 Watching for file changes with StatReloader
+WARNING 2022-11-07 07:19:39,223 log 224 Not Found: /
+WARNING 2022-11-07 07:19:39,224 basehttp 161 "GET / HTTP/1.1" 404 2231
+WARNING 2022-11-07 07:19:39,226 log 224 Not Found: /
+WARNING 2022-11-07 07:19:39,226 basehttp 161 "GET / HTTP/1.1" 404 2231
+INFO 2022-11-07 07:20:08,242 basehttp 161 "GET /register HTTP/1.1" 301 0
+INFO 2022-11-07 07:20:08,259 basehttp 161 "GET /register/ HTTP/1.1" 200 4616
+INFO 2022-11-07 07:20:08,280 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-07 07:20:08,280 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 120
+INFO 2022-11-07 07:20:08,281 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-07 07:20:08,281 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-07 07:20:08,282 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-07 07:20:08,300 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9786
+INFO 2022-11-07 07:20:08,302 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-07 07:20:08,321 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-07 07:20:08,323 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-07 07:20:08,324 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2022-11-07 07:23:52,015 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2022-11-07 07:23:52,282 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 07:24:59,441 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2022-11-07 07:24:59,732 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 07:43:27,965 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2022-11-07 07:43:28,251 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 07:59:04,748 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2022-11-07 07:59:05,041 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 07:59:36,858 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2022-11-07 07:59:37,158 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 08:00:41,922 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2022-11-07 08:00:42,188 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 08:01:05,909 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2022-11-07 08:01:06,178 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 08:03:13,172 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 08:04:38,987 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 08:08:03,341 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 08:11:23,607 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 08:15:06,835 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2022-11-07 08:15:07,140 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 08:27:49,802 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2022-11-07 08:27:50,097 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 08:32:55,858 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2022-11-07 08:32:56,157 autoreload 637 Watching for file changes with StatReloader
