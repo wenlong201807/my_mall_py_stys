@@ -54,12 +54,12 @@ INSTALLED_APPS = [
     # 'rest_framework.authtoken',
 
     # 'users', # 展开时候就是下面的形式
-    'users.apps.UsersConfig',
+    'users.apps.UsersConfig',  # 用户模块
     'orders.apps.OrdersConfig',
     'goods.apps.GoodsConfig',
     'oauth.apps.OauthConfig',
     'areas.apps.AreasConfig',
-    'contents.apps.ContentsConfig',
+    'contents.apps.ContentsConfig',  # 首页广告模块
     # 'haystack',
     'pays.apps.PaysConfig',
 

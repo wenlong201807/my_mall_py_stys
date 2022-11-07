@@ -6,6 +6,7 @@ from .models import User
 from django.contrib.auth import login
 from . import constants
 from django.db import DatabaseError
+from django.urls import reverse
 
 
 class RegisterView(View):
@@ -79,4 +80,6 @@ class RegisterView(View):
         # response.set_cookie('username', username, max_age=constants.USERNAME_COOKIE_EXPIRES)
 
         # 响应结果，重定向到首页
-        return http.HttpResponse('注册成功，重定向到首页')
+        # return http.HttpResponse('注册成功，重定向到首页')
+        # reverse('contents:index') == '/'
+        return redirect(reverse('contents:index'))
