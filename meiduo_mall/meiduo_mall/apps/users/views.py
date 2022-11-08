@@ -4,9 +4,24 @@ from django import http
 import re
 from .models import User
 from django.contrib.auth import login
+from meiduo_mall.utils.response_code import RET
 from . import constants
 from django.db import DatabaseError
 from django.urls import reverse
+
+
+class UsernameCountView(View):
+    def get(self, request, username):  # url中的变量 username
+        # 接收：通过路由在路径中提取
+        # 验证：路由的正则表达式
+        # 处理：判断用户名是否存在
+        count = User.objects.filter(username=username).count()
+        # 响应：提示是否存在
+        return http.JsonResponse({
+            'count': count,
+            'code': RET.OK,
+            'errmsg': 'OK'
+        })
 
 
 class RegisterView(View):
@@ -25,7 +40,7 @@ class RegisterView(View):
         # 验证
         # 1.非空
         if not all([username, password, password2, mobile, allow]):
-        # if not all([username, password, password2, mobile, sms_code, allow]):
+            # if not all([username, password, password2, mobile, sms_code, allow]):
             return http.HttpResponseForbidden('填写数据不完整')
         # 2.用户名
         if not re.match('^[a-zA-Z0-9_-]{5,20}$', username):

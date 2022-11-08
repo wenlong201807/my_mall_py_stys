@@ -64,7 +64,7 @@ var vm = new Vue({
                 this.error_name_message = '请输入5-20个字符的用户名';
                 this.error_name = true;
             }
-            // 检查重名
+            // 检查重名 前后端分离模式的接口模型
             if (this.error_name == false) {
                 var url = this.host + '/usernames/' + this.username + '/count/';
                 axios.get(url, {
