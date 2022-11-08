@@ -64,6 +64,8 @@ class RegisterView(View):
         # 1.创建用户对象
 
         # 保存注册数据, 是注册业务的核心
+        # return render(request, 'register.html', {'register_errmsg': '注册失败'})
+
         try:
             user = User.objects.create_user(
                 username=username,
@@ -73,7 +75,7 @@ class RegisterView(View):
         except DatabaseError:
             return render(request, 'register.html', {'register_errmsg': '注册失败'})
         # 2.状态保持
-        # login(request, user)
+        login(request, user)
 
         # 向cookie中写用户名，用于客户端显示
         # response = redirect('/')
