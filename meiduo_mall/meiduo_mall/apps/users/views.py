@@ -10,6 +10,20 @@ from django.db import DatabaseError
 from django.urls import reverse
 
 
+class MobileCountView(View):
+    def get(self, request, mobile):
+        # 接收
+        # 验证
+        # 处理：判断手机号是否存在
+        count = User.objects.filter(mobile=mobile).count()
+        # 响应：提示是否存在
+        return http.JsonResponse({
+            'count': count,
+            'code': RET.OK,
+            'errmsg': "OK"
+        })
+
+
 class UsernameCountView(View):
     def get(self, request, username):  # url中的变量 username
         # 接收：通过路由在路径中提取

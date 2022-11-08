@@ -109,7 +109,7 @@ var vm = new Vue({
                 this.error_phone_message = '您输入的手机号格式不正确';
                 this.error_phone = true;
             }
-            if (this.error_phone == false) {
+            if (this.error_phone == false) { // 前后端分离接口，检查手机号是否重复
                 var url = this.host + '/mobiles/' + this.mobile + '/count/';
                 axios.get(url, {
                     responseType: 'json'
