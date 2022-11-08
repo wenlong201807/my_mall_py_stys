@@ -35,7 +35,7 @@ var vm = new Vue({
         this.generate_image_code();
     },
     methods: {
-        generateUUID: function () {
+        generateUUID: function () {  // 可抽离到common.js 中，统一使用
             var d = new Date().getTime();
             if (window.performance && typeof window.performance.now === "function") {
                 d += performance.now(); //use high-precision timer if available

@@ -19,4 +19,5 @@ urlpatterns = [
     url('^meiduo_admin/', include('meiduo_admin.urls')),
     url(r'^', include(('users.urls', 'users'), namespace='users')),  # 增加命名空间
     url(r'^', include(('contents.urls', 'contents'), namespace='contents')),
+    url('^', include('verifycations.urls')),  # 校验模块
 ]

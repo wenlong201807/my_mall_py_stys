@@ -14,7 +14,7 @@ function get_query_string(name) {
     return null;
 }
 
-// 生成uuid
+// 生成uuid 应用1 -> 图片校验码对应的uuid
 function generateUUID() {
     var d = new Date().getTime();
     if(window.performance && typeof window.performance.now === "function"){

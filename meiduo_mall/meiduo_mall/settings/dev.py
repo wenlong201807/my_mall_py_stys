@@ -15,6 +15,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from pathlib import Path
 import os  # 操作系统ubuntu模块
 import sys  # python模块
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 # BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -55,6 +56,7 @@ INSTALLED_APPS = [
 
     # 'users', # 展开时候就是下面的形式
     'users.apps.UsersConfig',  # 用户模块
+    'verifycations.apps.VerifycationsConfig',  # 图形码，短信校验
     'orders.apps.OrdersConfig',
     'goods.apps.GoodsConfig',
     'oauth.apps.OauthConfig',
@@ -219,14 +221,14 @@ CACHES = {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
     },
-    "session": {
+    "session": {  # 存储session 的桶
         "BACKEND": "django_redis.cache.RedisCache",
         "LOCATION": "redis://127.0.0.1:6379/1",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
     },
-    "code": {
+    "verify_code": {  # 存储验证码 的桶
         "BACKEND": "django_redis.cache.RedisCache",
         "LOCATION": "redis://127.0.0.1:6379/2",
         "OPTIONS": {
@@ -251,7 +253,6 @@ CACHES = {
 # session状态保持信息存储位置
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 SESSION_CACHE_ALIAS = "session"
-
 
 # 日志：当运行出错时，记录在日志中，方便后续修改
 LOGGING = {
