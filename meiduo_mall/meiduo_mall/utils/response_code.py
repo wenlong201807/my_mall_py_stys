@@ -3,6 +3,7 @@
 class RET:
     OK                  = "0"
     DBERR               = "4001"
+    IMAGECODEERR        = "4001"
     NODATA              = "4002"
     DATAEXIST           = "4003"
     DATAERR             = "4004"

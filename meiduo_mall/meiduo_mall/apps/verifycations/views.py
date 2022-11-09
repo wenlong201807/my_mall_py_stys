@@ -1,13 +1,19 @@
-from django.shortcuts import render
-from django.views import View
-from meiduo_mall.libs.captcha.captcha import captcha
-from django_redis import get_redis_connection
-from . import constants
 from django import http
-from meiduo_mall.utils.response_code import RET
+from django.views import View
+from django_redis import get_redis_connection
+
 import random
+import logging
+
+from meiduo_mall.libs.captcha.captcha import captcha
 from meiduo_mall.libs.yuntongxun.ccp_sms import CCP
+from meiduo_mall.utils.response_code import RET
+from . import constants
+
 # from celery_tasks.sms.tasks import send_sms
+
+# 创建日志输出器
+logger = logging.getLogger('django')  # settings 中设置的日志器同名 'django': {  # 定义了一个名为django的日志器
 
 
 class SMSCCodeView(View):
@@ -47,28 +53,28 @@ class SMSCCodeView(View):
         # 4 删除图形验证码
         redis_conn.delete('img_%s' % uuid)
         # 5 对比图形验证码
-        image_code_server = image_code_server.decode()  # python3 中存入redis中的数据类型是bytes ,需要先将bytes转成字符串再比较
+        # python3 中存入redis中的数据类型是bytes ,需要先将bytes转成字符串再比较
+        image_code_server = image_code_server.decode("utf-8", "ignore")
         if image_code_server.lower() != image_code_client.lower():  # 优化: 都比较小写字母，不管用户输入的是大下写
             return http.JsonResponse({'code': RET.IMAGECODEERR, 'errmsg': '输入的图形验证码有误'})
 
         # 6 生成短信验证码： 随机6位数
         sms_code = '%06d' % random.randint(0, 999999)
-        print(sms_code)
+        logger.info(sms_code)  # 将生成的短信验证码记录到日志器中
 
         # 7 保存短信验证码
         redis_sms_conn = get_redis_connection('sms_code')
         redis_sms_conn.setex('sms_%s' % mobile, constants.SMS_CODE_EXPIRES, sms_code)
         # 8 发送短信验证码
-        CCP().send_template_sms(mobile, [sms_code, constants.SMS_CODE_EXPIRES // 60], constants.SEND_SMS_TEMPLATE_ID)  # 此处需要整数 //
+        # 此处需要整数 //
+        CCP().send_template_sms(mobile, [sms_code, constants.SMS_CODE_EXPIRES // 60], constants.SEND_SMS_TEMPLATE_ID)
 
         # 9 响应结果
-        return http.JsonResponse({'code': RET.OK, 'errmsg': '发送短信成功'})
+        return http.JsonResponse({'code': RET.OK, 'errmsg': '发送短信成功', 'sms_code': sms_code})
 
         # 0.是否60秒内
         # if redis_cli_sms.get(mobile + '_flag') is not None:
         #     return http.HttpResponseForbidden({'code': RET.SMSCODERR, 'errmsg': '发送短信太频繁，请稍候再发'})
-
-
 
         # 2.图形验证码是否正确
         # 2.1从redis中读取之前保存的图形验证码文本
@@ -104,7 +110,6 @@ class SMSCCodeView(View):
         # print(sms_code)
         # 通过delay调用，可以将任务加到队列中，交给celery去执行
         # send_sms.delay(mobile, sms_code)
-
 
 
 class ImageCodeView(View):

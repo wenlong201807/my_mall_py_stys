@@ -156,7 +156,8 @@ var vm = new Vue({
         },
         // 发送手机短信验证码
         send_sms_code: function () {
-            if (this.sending_flag == true) {
+            // 避免用户频繁点击 获取验证码按钮
+            if (this.sending_flag) {
                 return;
             }
             this.sending_flag = true;
@@ -165,30 +166,31 @@ var vm = new Vue({
             this.check_phone();
             this.check_image_code();
 
-            if (this.error_phone == true || this.error_image_code == true) {
+            if (this.error_phone || this.error_image_code) {
                 this.sending_flag = false;
                 return;
             }
 
             // 向后端接口发送请求，让后端发送短信验证码
-            var url = this.host + '/sms_codes/' + this.mobile + '/?image_code=' + this.image_code + '&image_code_id=' + this.image_code_id;
+            var url = this.host + '/sms_codes/' + this.mobile + '/?image_code=' + this.image_code + '&uuid=' + this.image_code_id;
             axios.get(url, {
                 responseType: 'json'
             })
                 .then(response => {
                     // 表示后端发送短信成功
-                    if (response.data.code == '0') {
+                    if (response.data.code === '0') {
                         // 倒计时60秒，60秒后允许用户再次点击发送短信验证码的按钮
                         var num = 60;
                         // 设置一个计时器
                         var t = setInterval(() => {
-                            if (num == 1) {
+                            if (num === 1) {
                                 // 如果计时器到最后, 清除计时器对象
                                 clearInterval(t);
                                 // 将点击获取验证码的按钮展示的文本回复成原始文本
                                 this.sms_code_tip = '获取短信验证码';
                                 // 将点击按钮的onclick事件函数恢复回去
                                 this.sending_flag = false;
+                                this.generate_image_code();
                             } else {
                                 num -= 1;
                                 // 展示倒计时信息
@@ -196,7 +198,7 @@ var vm = new Vue({
                             }
                         }, 1000, 60)
                     } else {
-                        if (response.data.code == '4001') {
+                        if (response.data.code === '4001') {
                             this.error_image_code_message = response.data.errmsg;
                             this.error_image_code = true;
                         } else { // 4002
