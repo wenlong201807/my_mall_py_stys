@@ -139,7 +139,7 @@ var vm = new Vue({
         },
         // 检查短信验证码
         check_sms_code: function () {
-            if (!this.sms_code) {
+            if (this.sms_code.length !== 6) {
                 this.error_sms_code_message = '请填写短信验证码';
                 this.error_sms_code = true;
             } else {
@@ -235,7 +235,7 @@ var vm = new Vue({
                 password: this.password,
                 password2: this.password2,
                 mobile: this.mobile,
-                // 'image_code':this.image_code,
+                // image_code:this.image_code,
                 sms_code: this.sms_code,
                 allow: this.allow
             }, {

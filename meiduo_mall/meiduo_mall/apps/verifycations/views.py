@@ -54,7 +54,8 @@ class SMSCCodeView(View):
         redis_conn.delete('img_%s' % uuid)
         # 5 对比图形验证码
         # python3 中存入redis中的数据类型是bytes ,需要先将bytes转成字符串再比较
-        image_code_server = image_code_server.decode("utf-8", "ignore")
+        image_code_server = image_code_server.decode('utf-8', 'ignore')
+        # image_code_server = image_code_server.decode("utf-8", "ignore")
         if image_code_server.lower() != image_code_client.lower():  # 优化: 都比较小写字母，不管用户输入的是大下写
             return http.JsonResponse({'code': RET.IMAGECODEERR, 'errmsg': '输入的图形验证码有误'})
 
