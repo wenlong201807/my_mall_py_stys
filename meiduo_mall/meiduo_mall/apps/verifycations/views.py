@@ -69,48 +69,30 @@ class SMSCCodeView(View):
         sms_code = '%06d' % random.randint(0, 999999)
         logger.info(sms_code)  # 将生成的短信验证码记录到日志器中
 
+        # # 7 保存短信验证码
+        # redis_sms_conn.setex('sms_%s' % mobile, constants.SMS_CODE_EXPIRES, sms_code)
+        # # 保存发送短信验证码的标记
+        # redis_sms_conn.setex('send_flag_%s' % mobile, constants.SMS_CODE_FLAG, 1)
+
+        """
+        redis 是tcl服务，默认是队列方式读取写入，可能有阻塞，需要用管道的方式优化
+        1 创建redis管道
+        2 将命令添加到队列中
+        3 执行
+        """
+        pl = redis_sms_conn.pipeline()
         # 7 保存短信验证码
-        redis_sms_conn.setex('sms_%s' % mobile, constants.SMS_CODE_EXPIRES, sms_code)
+        pl.setex('sms_%s' % mobile, constants.SMS_CODE_EXPIRES, sms_code)
         # 保存发送短信验证码的标记
-        redis_sms_conn.setex('send_flag_%s' % mobile, constants.SMS_CODE_FLAG, 1)
+        pl.setex('send_flag_%s' % mobile, constants.SMS_CODE_FLAG, 1)
+        pl.execute()
+
         # 8 发送短信验证码
         # 此处需要整数 //
         CCP().send_template_sms(mobile, [sms_code, constants.SMS_CODE_EXPIRES // 60], constants.SEND_SMS_TEMPLATE_ID)
 
         # 9 响应结果
         return http.JsonResponse({'code': RET.OK, 'errmsg': '发送短信成功', 'sms_code': sms_code})
-
-        # 0.是否60秒内
-        # if redis_cli_sms.get(mobile + '_flag') is not None:
-        #     return http.HttpResponseForbidden({'code': RET.SMSCODERR, 'errmsg': '发送短信太频繁，请稍候再发'})
-
-        # 2.图形验证码是否正确
-        # 2.1从redis中读取之前保存的图形验证码文本
-        # redis_cli_image = get_redis_connection('image_code')
-        # image_code_redis = redis_cli_image.get(uuid)
-
-        # 2.2如果redis中的数据过期则提示
-        # if image_code_redis is None:
-        #     return http.JsonResponse({'code': RET.IMAGECODEERR, 'errmsg': '图形验证码已过期，点击图片换一个'})
-        # # 2.3立即删除redis中图形验证码，表示这个值不能使用第二次
-        # redis_cli_image.delete(uuid)
-        # # 2.3对比图形验证码：不区分大小写
-        # if image_code_redis.decode().lower() != image_code_client.lower():
-        #     return http.JsonResponse({'code': RET.IMAGECODEERR, 'errmsg': '图形验证码错误'})
-
-        # 处理
-        # 1.生成随机6位数
-        # sms_code = '%06d' % random.randint(0, 999999)
-        # print(sms_code)
-        # # 2.1存入redis
-        # redis_cli_sms.setex(mobile, constants.SMS_CODE_EXPIRES, sms_code)
-        # # 2.2写发送标记
-        # redis_cli_sms.setex(mobile + '_flag', constants.SMS_CODE_FLAG, 1)
-        # # 优化：使用管道
-        # redis_pl = redis_cli_sms.pipeline()
-        # redis_pl.setex(mobile, constants.SMS_CODE_EXPIRES, sms_code)
-        # redis_pl.setex(mobile + '_flag', constants.SMS_CODE_FLAG, 1)
-        # redis_pl.execute()
 
         # 3.发短信
         # ccp = CCP()
