@@ -6,11 +6,63 @@ import re
 from django_redis import get_redis_connection
 
 from .models import User
-from django.contrib.auth import login
+from django.contrib.auth import login, authenticate
 from meiduo_mall.utils.response_code import RET
 from . import constants
 from django.db import DatabaseError
 from django.urls import reverse
+
+
+class LoginView(View):
+    def get(self, request):
+        return render(request, 'login.html')
+
+    def post(self, request):
+        """
+        1 接收参数
+        2 校验参数
+        3 认证用户
+        4 状态保持
+        5 响应结果
+        """
+        # 接收
+        username = request.POST.get('username')
+        pwd = request.POST.get('pwd')
+        remembered = request.POST.get('remembered')
+
+        # 1.非空
+        if not all([username, pwd]):
+            return http.HttpResponseForbidden('缺少必传参数')
+        # 2.用户名
+        if not re.match('^[a-zA-Z0-9_-]{5,20}$', username):
+            return http.HttpResponseForbidden('输入正确的用户名')
+
+        # 密码
+        if not re.match('^[0-9A-Za-z]{8,20}$', pwd):
+            return http.HttpResponseForbidden('密码最少8位，最多20位')
+
+        # 验证：根据用户名查询，找到对象后再对比密码
+        '''
+        user=User.objects.get(username=username)
+        user.password==加密(pwd)===>user.check_password(pwd)
+        '''
+        user = authenticate(request, username=username, password=pwd)
+        if user is None:
+            # 用户名或密码错误 -> 给爬虫看的
+            return render(request, 'login.html', {'account_message': '账号或密码错误'})
+
+        # 保持状态
+        login(request, user)
+        # 使用remembered 确定状态保持周期(实现记住登录)
+        if remembered != 'on':  # 这里为什么是 on作为判断标准呢？
+            # 没有记住登录： 状态保持在浏览器会话结束后就销毁
+            request.session.set_expiry(0)  # 单位是秒
+        else:
+            # 记住登录: 状态保持周期为两周(默认是两周)
+            request.session.set_expiry(None)
+
+        # 响应结果：重定向到首页
+        return redirect(reverse('contents:index'))
 
 
 class MobileCountView(View):
