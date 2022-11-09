@@ -2,8 +2,9 @@
 
 class RET:
     OK                  = "0"
-    DBERR               = "4001"
+    DBERR               = "5000"
     IMAGECODEERR        = "4001"
+    THROTTLINGERR       = "4002"
     NODATA              = "4002"
     DATAEXIST           = "4003"
     DATAERR             = "4004"

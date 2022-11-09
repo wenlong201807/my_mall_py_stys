@@ -201,7 +201,7 @@ var vm = new Vue({
                         if (response.data.code === '4001') {
                             this.error_image_code_message = response.data.errmsg;
                             this.error_image_code = true;
-                        } else { // 4002
+                        } else { // 4002 // 短信验证码过于频繁
                             this.error_sms_code_message = response.data.errmsg;
                             this.error_sms_code = true;
                         }

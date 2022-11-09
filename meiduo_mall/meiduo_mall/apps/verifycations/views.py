@@ -41,6 +41,13 @@ class SMSCCodeView(View):
         uuid = request.GET.get('uuid')
         image_code_client = request.GET.get('image_code')
 
+        redis_sms_conn = get_redis_connection('sms_code')
+        # 判断用户是否频繁发送短信验证码
+        # 提取发送短信验证码的标记
+        send_flag = redis_sms_conn.get('send_flag_%s' % mobile)
+        if send_flag:
+            return http.JsonResponse({'code': RET.THROTTLINGERR, 'errmsg': '发送短信过于频繁'})
+
         # 2 校验参数
         if not all([uuid, image_code_client]):  # mobile参数 已经在url中校验完了，不正确，进不来路由
             return http.HttpResponseForbidden({"code": RET.PARAMERR, 'errmsg': '参数不完整'})
@@ -55,7 +62,6 @@ class SMSCCodeView(View):
         # 5 对比图形验证码
         # python3 中存入redis中的数据类型是bytes ,需要先将bytes转成字符串再比较
         image_code_server = image_code_server.decode('utf-8', 'ignore')
-        # image_code_server = image_code_server.decode("utf-8", "ignore")
         if image_code_server.lower() != image_code_client.lower():  # 优化: 都比较小写字母，不管用户输入的是大下写
             return http.JsonResponse({'code': RET.IMAGECODEERR, 'errmsg': '输入的图形验证码有误'})
 
@@ -64,8 +70,9 @@ class SMSCCodeView(View):
         logger.info(sms_code)  # 将生成的短信验证码记录到日志器中
 
         # 7 保存短信验证码
-        redis_sms_conn = get_redis_connection('sms_code')
         redis_sms_conn.setex('sms_%s' % mobile, constants.SMS_CODE_EXPIRES, sms_code)
+        # 保存发送短信验证码的标记
+        redis_sms_conn.setex('send_flag_%s' % mobile, constants.SMS_CODE_FLAG, 1)
         # 8 发送短信验证码
         # 此处需要整数 //
         CCP().send_template_sms(mobile, [sms_code, constants.SMS_CODE_EXPIRES // 60], constants.SEND_SMS_TEMPLATE_ID)
