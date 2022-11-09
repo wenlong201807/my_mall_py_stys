@@ -1611,3 +1611,425 @@ INFO 2022-11-09 08:01:13,811 views 68 868731
 INFO 2022-11-09 08:01:13,855 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
 INFO 2022-11-09 08:01:13,884 basehttp 161 "GET /sms_codes/18479783236/?image_code=uep8&uuid=b3969527-aa86-40e4-8da8-6148733fff45 HTTP/1.1" 200 85
 INFO 2022-11-09 08:02:13,909 basehttp 161 "GET /image_codes/480250ad-2c78-40b7-bbf2-8bbd64c74afe/ HTTP/1.1" 200 3332
+INFO 2022-11-09 08:23:24,132 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2022-11-09 08:23:24,459 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 08:25:08,221 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-09 08:25:08,523 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 08:29:02,674 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-11-09 08:29:09,217 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py", line 18, in get
+    return render(request, 'login.html')
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: login.html
+ERROR 2022-11-09 08:29:09,221 basehttp 161 "GET /login/ HTTP/1.1" 500 90828
+INFO 2022-11-09 08:34:16,437 basehttp 161 "GET /login/ HTTP/1.1" 200 3603
+INFO 2022-11-09 08:34:16,493 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 08:34:16,493 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 08:34:16,495 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 08:34:16,499 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 08:34:16,500 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 08:34:16,565 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 931
+INFO 2022-11-09 08:34:16,569 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 1743
+WARNING 2022-11-09 08:34:16,584 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 08:34:16,584 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 08:34:16,585 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2022-11-09 08:34:16,585 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-11-09 08:34:16,588 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+WARNING 2022-11-09 08:37:13,928 log 224 Not Found: /login/index.html
+WARNING 2022-11-09 08:37:13,929 basehttp 161 "GET /login/index.html HTTP/1.1" 404 3404
+INFO 2022-11-09 08:37:42,032 basehttp 161 "GET /login/ HTTP/1.1" 200 3594
+INFO 2022-11-09 08:37:42,054 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 08:37:42,057 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 08:37:42,059 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 08:37:42,060 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 08:37:42,063 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 08:37:42,123 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 931
+INFO 2022-11-09 08:37:42,130 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 10007
+WARNING 2022-11-09 08:37:42,135 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 08:37:42,136 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2022-11-09 08:37:42,143 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 08:37:42,143 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-11-09 08:37:42,145 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2022-11-09 08:37:44,133 basehttp 161 "GET /login/ HTTP/1.1" 200 3594
+INFO 2022-11-09 08:37:44,157 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 08:37:44,159 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 08:37:44,160 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 08:37:44,161 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 08:37:44,162 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 08:37:44,216 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 931
+INFO 2022-11-09 08:37:44,218 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 10007
+INFO 2022-11-09 08:37:44,232 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2022-11-09 08:37:44,232 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-11-09 08:37:44,232 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+WARNING 2022-11-09 08:37:44,235 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 08:37:44,237 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2022-11-09 08:37:53,054 autoreload 637 Watching for file changes with StatReloader
+WARNING 2022-11-09 08:37:56,444 log 224 Not Found: /login/index.html
+WARNING 2022-11-09 08:37:56,445 basehttp 161 "GET /login/index.html HTTP/1.1" 404 3404
+INFO 2022-11-09 08:38:11,584 basehttp 161 "GET /login/ HTTP/1.1" 200 3594
+INFO 2022-11-09 08:38:11,616 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 08:38:11,617 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 08:38:11,618 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 08:38:11,618 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 08:38:11,619 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 08:38:11,673 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 931
+INFO 2022-11-09 08:38:11,674 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 10007
+INFO 2022-11-09 08:38:11,682 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+WARNING 2022-11-09 08:38:11,683 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 08:38:11,689 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 08:38:11,689 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-11-09 08:38:11,692 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2022-11-09 08:39:13,929 basehttp 161 "GET /login/ HTTP/1.1" 200 3589
+INFO 2022-11-09 08:39:13,960 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 08:39:13,961 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 08:39:13,961 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 08:39:13,962 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 08:39:13,965 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 08:39:14,020 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 931
+INFO 2022-11-09 08:39:14,028 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 10007
+INFO 2022-11-09 08:39:14,036 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+WARNING 2022-11-09 08:39:14,037 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 08:39:14,038 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2022-11-09 08:39:14,038 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 08:39:14,039 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+WARNING 2022-11-09 08:39:16,538 log 224 Not Found: /index/
+WARNING 2022-11-09 08:39:16,539 basehttp 161 "GET /index/ HTTP/1.1" 404 3374
+INFO 2022-11-09 08:39:26,762 basehttp 161 "GET /login/ HTTP/1.1" 200 3589
+INFO 2022-11-09 08:39:26,798 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 08:39:26,799 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 08:39:26,799 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 08:39:26,800 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 08:39:26,804 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 08:39:26,870 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 10007
+INFO 2022-11-09 08:39:26,872 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 931
+INFO 2022-11-09 08:39:26,873 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+WARNING 2022-11-09 08:39:26,880 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 08:39:26,887 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 08:39:26,888 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-11-09 08:39:26,890 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2022-11-09 08:39:29,709 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 08:39:29,734 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 08:39:29,734 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 08:39:29,734 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 08:39:29,734 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 08:39:29,735 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 08:39:29,792 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 10007
+INFO 2022-11-09 08:39:29,794 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2022-11-09 08:39:29,805 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 08:39:29,819 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 08:39:29,819 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-09 08:39:29,822 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2022-11-09 08:39:29,835 basehttp 161 "GET /image_codes/7deb33f8-9c43-40a3-ad48-7174037fb5a8/ HTTP/1.1" 200 3001
+INFO 2022-11-09 08:39:32,631 basehttp 161 "GET /login/ HTTP/1.1" 200 3589
+INFO 2022-11-09 08:39:32,671 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 08:39:32,674 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 08:39:32,674 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 08:39:32,676 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 08:39:32,677 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 08:39:32,717 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 931
+INFO 2022-11-09 08:39:32,717 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 10007
+INFO 2022-11-09 08:39:32,723 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2022-11-09 08:39:32,736 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+WARNING 2022-11-09 08:39:32,737 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 08:39:32,738 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 08:39:32,739 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2022-11-09 08:39:47,727 basehttp 161 "GET /login/ HTTP/1.1" 200 3589
+INFO 2022-11-09 08:39:47,753 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 08:39:47,753 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 08:39:47,754 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 08:39:47,755 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 08:39:47,757 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 08:39:47,816 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 931
+INFO 2022-11-09 08:39:47,824 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 10007
+INFO 2022-11-09 08:39:47,832 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 08:39:47,833 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+WARNING 2022-11-09 08:39:47,835 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 08:39:47,839 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-11-09 08:39:47,842 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2022-11-09 08:41:27,295 basehttp 161 "GET /login/ HTTP/1.1" 200 3589
+INFO 2022-11-09 08:41:27,327 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 08:41:27,328 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 08:41:27,329 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 08:41:27,329 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 08:41:27,333 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 08:41:27,391 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 931
+INFO 2022-11-09 08:41:27,396 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 10007
+INFO 2022-11-09 08:41:27,398 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2022-11-09 08:41:27,411 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 08:41:27,412 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+WARNING 2022-11-09 08:41:27,415 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 08:41:27,429 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2022-11-09 08:44:22,080 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 08:44:28,836 basehttp 161 "GET /login/ HTTP/1.1" 200 3589
+INFO 2022-11-09 08:44:28,858 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 08:44:28,863 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 08:44:28,864 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 08:44:28,864 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 08:44:28,865 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 08:44:28,917 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 931
+INFO 2022-11-09 08:44:28,918 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 10007
+INFO 2022-11-09 08:44:28,935 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2022-11-09 08:44:28,936 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-11-09 08:44:28,939 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 08:44:28,944 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+WARNING 2022-11-09 08:44:28,947 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2022-11-09 08:44:29,101 log 224 Not Found: /favicon.ico
+WARNING 2022-11-09 08:44:29,101 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3389
+INFO 2022-11-09 08:45:07,643 basehttp 161 "GET /login/ HTTP/1.1" 200 3586
+INFO 2022-11-09 08:45:07,677 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 08:45:07,678 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 08:45:07,679 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 08:45:07,681 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 08:45:07,697 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 08:45:07,743 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 931
+INFO 2022-11-09 08:45:07,750 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 1764
+INFO 2022-11-09 08:45:07,769 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+WARNING 2022-11-09 08:45:07,777 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 08:45:07,778 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2022-11-09 08:45:07,778 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-11-09 08:45:07,780 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2022-11-09 08:46:20,640 basehttp 161 "GET /login/ HTTP/1.1" 200 3586
+INFO 2022-11-09 08:46:20,689 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 08:46:20,690 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 08:46:20,690 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 08:46:20,692 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 08:46:20,698 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 08:46:20,752 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 931
+INFO 2022-11-09 08:46:20,760 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 1779
+INFO 2022-11-09 08:46:20,765 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2022-11-09 08:46:20,772 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+WARNING 2022-11-09 08:46:20,779 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 08:46:20,781 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 08:46:20,783 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2022-11-09 08:46:32,105 basehttp 161 "GET /login/ HTTP/1.1" 200 3586
+INFO 2022-11-09 08:46:32,131 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 08:46:32,133 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 08:46:32,137 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 08:46:32,139 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 08:46:32,141 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 08:46:32,196 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 931
+INFO 2022-11-09 08:46:32,199 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 1758
+INFO 2022-11-09 08:46:32,209 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 08:46:32,210 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+WARNING 2022-11-09 08:46:32,210 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 08:46:32,210 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2022-11-09 08:46:32,212 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+ERROR 2022-11-09 08:46:55,378 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py", line 38, in post
+    login(request, user)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 103, in login
+    if _get_user_session_key(request) != user.pk or (
+AttributeError: 'str' object has no attribute 'pk'
+ERROR 2022-11-09 08:46:55,383 basehttp 161 "POST /login/ HTTP/1.1" 500 83747
+INFO 2022-11-09 08:49:02,251 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-09 08:49:02,544 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 08:54:44,237 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-09 08:54:44,539 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 08:57:36,512 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-09 08:57:36,905 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-11-09 09:28:47,486 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py", line 59, in post
+    login(request, user)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 103, in login
+    if _get_user_session_key(request) != user.pk or (
+AttributeError: 'str' object has no attribute 'pk'
+ERROR 2022-11-09 09:28:47,490 basehttp 161 "POST /login/ HTTP/1.1" 500 83750
+INFO 2022-11-09 09:29:49,076 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-11-09 09:29:52,439 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py", line 59, in post
+    login(request, user)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 103, in login
+    if _get_user_session_key(request) != user.pk or (
+AttributeError: 'str' object has no attribute 'pk'
+ERROR 2022-11-09 09:29:52,442 basehttp 161 "POST /login/ HTTP/1.1" 500 83750
+ERROR 2022-11-09 09:30:10,149 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py", line 59, in post
+    login(request, user)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 103, in login
+    if _get_user_session_key(request) != user.pk or (
+AttributeError: 'str' object has no attribute 'pk'
+ERROR 2022-11-09 09:30:10,150 basehttp 161 "POST /login/ HTTP/1.1" 500 83750
+WARNING 2022-11-09 09:30:10,405 log 224 Not Found: /favicon.ico
+WARNING 2022-11-09 09:30:10,405 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3389
+INFO 2022-11-09 09:30:13,667 basehttp 161 "GET /login/ HTTP/1.1" 200 3586
+INFO 2022-11-09 09:30:13,694 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 09:30:13,695 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 09:30:13,695 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 09:30:13,696 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 09:30:13,698 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 09:30:13,755 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 931
+INFO 2022-11-09 09:30:13,755 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 1758
+INFO 2022-11-09 09:30:13,768 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-11-09 09:30:13,769 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 09:30:13,770 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+WARNING 2022-11-09 09:30:13,773 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 09:30:13,775 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2022-11-09 09:39:02,196 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-09 09:39:02,572 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 09:47:12,475 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-09 09:47:12,764 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 09:47:50,314 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-09 09:47:50,593 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 09:49:48,245 basehttp 161 "GET /login/ HTTP/1.1" 200 3586
+INFO 2022-11-09 09:49:48,292 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 09:49:48,293 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 09:49:48,293 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 09:49:48,293 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 09:49:48,295 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 09:49:48,360 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 931
+INFO 2022-11-09 09:49:48,361 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 1758
+INFO 2022-11-09 09:49:48,382 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-11-09 09:49:48,383 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2022-11-09 09:49:48,383 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 09:49:48,388 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+WARNING 2022-11-09 09:49:48,389 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 09:49:58,988 basehttp 161 "POST /login/ HTTP/1.1" 200 3701
+INFO 2022-11-09 09:49:59,010 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 09:49:59,010 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 09:49:59,011 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 09:49:59,011 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 09:49:59,011 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 09:49:59,074 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 931
+INFO 2022-11-09 09:49:59,078 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 1758
+INFO 2022-11-09 09:49:59,087 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-11-09 09:49:59,087 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 09:49:59,087 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+WARNING 2022-11-09 09:49:59,088 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 09:49:59,089 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2022-11-09 09:51:40,409 basehttp 161 "POST /login/ HTTP/1.1" 200 3701
+INFO 2022-11-09 09:51:40,435 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 09:51:40,436 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 09:51:40,436 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 09:51:40,437 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 09:51:40,439 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 09:51:40,496 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 931
+INFO 2022-11-09 09:51:40,497 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 1758
+WARNING 2022-11-09 09:51:40,508 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 09:51:40,509 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-11-09 09:51:40,509 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2022-11-09 09:51:40,510 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 09:51:40,513 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2022-11-09 09:52:05,424 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-11-09 09:52:05,429 basehttp 161 "GET / HTTP/1.1" 200 2300
+INFO 2022-11-09 09:52:05,452 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 09:52:05,454 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 09:52:05,454 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 09:52:05,454 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 09:52:05,457 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2022-11-09 09:52:05,457 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+WARNING 2022-11-09 09:52:05,516 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 09:53:59,828 basehttp 161 "GET /login/ HTTP/1.1" 200 3586
+INFO 2022-11-09 09:53:59,856 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 09:53:59,858 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 09:53:59,858 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 09:53:59,859 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 09:53:59,861 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 09:53:59,916 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 1758
+INFO 2022-11-09 09:53:59,916 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 931
+INFO 2022-11-09 09:53:59,928 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+WARNING 2022-11-09 09:53:59,928 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 09:53:59,929 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-11-09 09:53:59,930 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2022-11-09 09:53:59,932 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2022-11-09 09:54:12,006 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-11-09 09:54:12,014 basehttp 161 "GET / HTTP/1.1" 200 2300
+INFO 2022-11-09 09:54:12,030 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 09:54:12,031 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 09:54:12,032 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 09:54:12,033 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 09:54:12,034 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 09:54:12,034 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+WARNING 2022-11-09 09:54:12,106 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 09:55:13,525 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-09 09:55:13,830 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 09:56:54,630 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-09 09:56:54,909 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 10:19:34,704 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 10:19:40,303 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 10:20:00,298 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 10:29:11,233 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 10:29:24,280 basehttp 161 "GET /login/ HTTP/1.1" 200 3586
+INFO 2022-11-09 10:29:24,309 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 10:29:24,309 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 10:29:24,309 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 10:29:24,312 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 10:29:24,313 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 10:29:24,384 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 931
+INFO 2022-11-09 10:29:24,385 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 1758
+INFO 2022-11-09 10:29:24,400 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2022-11-09 10:29:24,406 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 10:29:24,406 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-11-09 10:29:24,426 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+WARNING 2022-11-09 10:29:24,429 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 10:36:43,401 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-11-09 10:36:43,442 basehttp 161 "GET / HTTP/1.1" 200 2300
+INFO 2022-11-09 10:36:43,487 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 10:36:43,489 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 10:36:43,490 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 10:36:43,493 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 10:36:43,496 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2022-11-09 10:36:43,496 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+WARNING 2022-11-09 10:36:43,598 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 10:37:18,266 basehttp 161 "GET /login/ HTTP/1.1" 200 3586
+INFO 2022-11-09 10:37:18,297 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 10:37:18,297 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 10:37:18,297 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 10:37:18,301 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 10:37:18,304 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 10:37:18,361 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 931
+INFO 2022-11-09 10:37:18,361 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 1758
+INFO 2022-11-09 10:37:18,370 basehttp 161 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+WARNING 2022-11-09 10:37:18,371 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 10:37:18,379 basehttp 161 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-11-09 10:37:18,379 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 10:37:18,381 basehttp 161 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
