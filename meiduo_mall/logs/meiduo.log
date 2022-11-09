@@ -62,3 +62,1552 @@ INFO 2022-11-07 08:27:49,802 autoreload 251 /Users/wenlong/Desktop/love-coding/p
 INFO 2022-11-07 08:27:50,097 autoreload 637 Watching for file changes with StatReloader
 INFO 2022-11-07 08:32:55,858 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
 INFO 2022-11-07 08:32:56,157 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 09:05:28,356 basehttp 161 "GET /register/ HTTP/1.1" 200 4809
+WARNING 2022-11-07 09:05:32,270 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-07 09:05:41,589 basehttp 161 "GET /register/ HTTP/1.1" 200 4809
+INFO 2022-11-07 09:05:41,615 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-07 09:05:41,616 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 120
+INFO 2022-11-07 09:05:41,619 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-07 09:05:41,620 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-07 09:05:41,622 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-07 09:05:41,675 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9786
+INFO 2022-11-07 09:05:41,679 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2022-11-07 09:05:41,691 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-07 09:05:41,693 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-07 09:05:41,695 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-07 09:05:41,696 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2022-11-07 09:50:29,632 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 09:50:47,709 basehttp 161 "GET /register/ HTTP/1.1" 200 4809
+INFO 2022-11-07 09:50:47,753 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-07 09:50:47,755 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-07 09:50:47,755 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-07 09:50:47,756 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-07 09:50:47,757 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-07 09:50:47,822 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9786
+INFO 2022-11-07 09:50:47,823 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-07 09:50:47,835 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-07 09:50:47,835 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-07 09:50:47,837 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-07 09:50:47,843 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2022-11-07 09:50:47,858 log 224 Not Found: /image_codes/8ffcb00c-6c31-40c6-9852-5ab3f739d31b/
+WARNING 2022-11-07 09:50:47,858 basehttp 161 "GET /image_codes/8ffcb00c-6c31-40c6-9852-5ab3f739d31b/ HTTP/1.1" 404 2413
+WARNING 2022-11-07 09:50:55,908 log 224 Not Found: /usernames/sdfbsdfb/count/
+WARNING 2022-11-07 09:50:55,909 basehttp 161 "GET /usernames/sdfbsdfb/count/ HTTP/1.1" 404 2341
+INFO 2022-11-07 09:59:45,833 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-07 09:59:46,107 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 10:06:01,658 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-07 10:06:01,954 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 10:07:03,937 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-07 10:07:04,227 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 10:08:30,734 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-07 10:08:31,031 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 10:12:11,939 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-07 10:12:12,245 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 10:12:14,465 basehttp 161 "GET /register/ HTTP/1.1" 200 4809
+INFO 2022-11-07 10:12:14,523 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-07 10:12:14,527 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-07 10:12:14,528 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-07 10:12:14,530 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-07 10:12:14,531 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-07 10:12:14,596 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9786
+INFO 2022-11-07 10:12:14,598 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-07 10:12:14,609 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-07 10:12:14,609 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-07 10:12:14,613 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-07 10:12:14,625 log 224 Not Found: /image_codes/7dd56be9-b994-4d66-9c2d-8adf31723bd7/
+WARNING 2022-11-07 10:12:14,625 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2022-11-07 10:12:14,625 basehttp 161 "GET /image_codes/7dd56be9-b994-4d66-9c2d-8adf31723bd7/ HTTP/1.1" 404 2413
+WARNING 2022-11-07 10:12:24,186 log 224 Not Found: /usernames/test99/count/
+WARNING 2022-11-07 10:12:24,187 basehttp 161 "GET /usernames/test99/count/ HTTP/1.1" 404 2335
+WARNING 2022-11-07 10:12:44,038 log 224 Not Found: /mobiles/18187654321/count/
+WARNING 2022-11-07 10:12:44,038 basehttp 161 "GET /mobiles/18187654321/count/ HTTP/1.1" 404 2344
+WARNING 2022-11-07 10:12:44,137 log 224 Not Found: /usernames/test99/count/
+WARNING 2022-11-07 10:12:44,141 basehttp 161 "GET /usernames/test99/count/ HTTP/1.1" 404 2335
+WARNING 2022-11-07 10:12:44,143 log 224 Not Found: /mobiles/18187654321/count/
+WARNING 2022-11-07 10:12:44,143 basehttp 161 "GET /mobiles/18187654321/count/ HTTP/1.1" 404 2344
+INFO 2022-11-07 10:17:23,720 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 10:17:31,612 basehttp 161 "GET /register/ HTTP/1.1" 200 4809
+INFO 2022-11-07 10:17:31,660 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-07 10:17:31,663 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-07 10:17:31,665 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-07 10:17:31,665 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-07 10:17:31,667 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-07 10:17:31,737 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9771
+INFO 2022-11-07 10:17:31,737 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-07 10:17:31,755 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-07 10:17:31,757 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-07 10:17:31,770 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-07 10:17:31,780 log 224 Not Found: /image_codes/133091e1-1de7-4ce5-9683-78c75ae07576/
+WARNING 2022-11-07 10:17:31,780 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2022-11-07 10:17:31,780 basehttp 161 "GET /image_codes/133091e1-1de7-4ce5-9683-78c75ae07576/ HTTP/1.1" 404 2413
+WARNING 2022-11-07 10:17:39,099 log 224 Not Found: /usernames/test99/count/
+WARNING 2022-11-07 10:17:39,099 basehttp 161 "GET /usernames/test99/count/ HTTP/1.1" 404 2335
+WARNING 2022-11-07 10:17:56,793 log 224 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2022-11-07 10:17:56,798 log 224 Not Found: /mobiles/18187654321/count/
+WARNING 2022-11-07 10:17:56,799 basehttp 161 "GET /mobiles/18187654321/count/ HTTP/1.1" 404 2344
+WARNING 2022-11-07 10:17:56,801 basehttp 161 "POST /register/ HTTP/1.1" 403 2519
+INFO 2022-11-07 10:17:56,878 basehttp 161 "POST /register/ HTTP/1.1" 200 33
+INFO 2022-11-07 10:22:55,825 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2022-11-07 10:22:56,134 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 10:36:51,866 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2022-11-07 10:36:52,184 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 10:40:11,149 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-11-07 10:40:17,105 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/contents/views.py", line 35, in get
+    return render(request, 'index.html', context=context)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/templates/index.html", line 96, in top-level template code
+    {% for group in categories.values() %}
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'str object' has no attribute 'values'
+ERROR 2022-11-07 10:40:17,111 basehttp 161 "GET / HTTP/1.1" 500 168437
+INFO 2022-11-07 10:41:10,439 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-11-07 10:41:13,936 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/contents/views.py", line 35, in get
+    return render(request, 'index.html', context=context)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/templates/index.html", line 96, in top-level template code
+    {% for group in categories.values() %}
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'str object' has no attribute 'values'
+ERROR 2022-11-07 10:41:13,943 basehttp 161 "GET / HTTP/1.1" 500 117279
+INFO 2022-11-07 10:44:53,277 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/contents/views.py changed, reloading.
+INFO 2022-11-07 10:44:53,552 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 10:44:59,566 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-11-07 10:45:03,564 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/contents/views.py", line 35, in get
+    return render(request, 'index.html', context=context)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/templates/index.html", line 96, in top-level template code
+    {% for group in categories.values() %}
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'str object' has no attribute 'values'
+ERROR 2022-11-07 10:45:03,570 basehttp 161 "GET / HTTP/1.1" 500 116357
+ERROR 2022-11-07 10:45:07,102 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/contents/views.py", line 35, in get
+    return render(request, 'index.html', context=context)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/template/backends/jinja2.py", line 74, in render
+    return self.template.render(context)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/templates/index.html", line 96, in top-level template code
+    {% for group in categories.values() %}
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'str object' has no attribute 'values'
+ERROR 2022-11-07 10:45:07,103 basehttp 161 "GET / HTTP/1.1" 500 116357
+INFO 2022-11-07 10:49:06,918 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-07 10:49:07,193 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 10:50:00,934 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-07 10:50:01,211 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 10:53:39,043 basehttp 161 "GET / HTTP/1.1" 200 1454
+INFO 2022-11-07 10:53:39,081 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-07 10:53:39,087 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-07 10:53:39,088 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-07 10:53:39,088 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-07 10:53:39,088 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2022-11-07 10:53:39,098 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+WARNING 2022-11-07 10:53:39,178 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-07 10:55:01,903 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-07 10:55:02,203 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-07 10:55:36,564 basehttp 161 "GET /register/ HTTP/1.1" 200 4809
+INFO 2022-11-07 10:55:36,617 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-07 10:55:36,618 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-07 10:55:36,620 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-07 10:55:36,621 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-07 10:55:36,623 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-07 10:55:36,673 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9771
+INFO 2022-11-07 10:55:36,674 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-07 10:55:36,682 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-07 10:55:36,692 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-07 10:55:36,698 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-07 10:55:36,712 log 224 Not Found: /image_codes/20e1238f-898e-4472-ad86-f16703d61e5d/
+WARNING 2022-11-07 10:55:36,713 basehttp 161 "GET /image_codes/20e1238f-898e-4472-ad86-f16703d61e5d/ HTTP/1.1" 404 2577
+WARNING 2022-11-07 10:55:36,713 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2022-11-07 10:55:48,007 log 224 Not Found: /usernames/test88/count/
+WARNING 2022-11-07 10:55:48,008 basehttp 161 "GET /usernames/test88/count/ HTTP/1.1" 404 2499
+WARNING 2022-11-07 10:56:02,965 log 224 Not Found: /mobiles/18187654322/count/
+WARNING 2022-11-07 10:56:02,974 basehttp 161 "GET /mobiles/18187654322/count/ HTTP/1.1" 404 2508
+WARNING 2022-11-07 10:56:02,979 log 224 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2022-11-07 10:56:02,980 basehttp 161 "POST /register/ HTTP/1.1" 403 2519
+INFO 2022-11-07 10:56:03,075 basehttp 161 "POST /register/ HTTP/1.1" 302 0
+INFO 2022-11-07 10:56:03,079 basehttp 161 "GET / HTTP/1.1" 200 1454
+INFO 2022-11-07 10:56:03,097 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-07 10:56:03,100 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-07 10:56:03,102 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-07 10:56:03,102 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-07 10:56:03,103 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-07 10:56:03,103 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+WARNING 2022-11-07 10:56:03,157 log 224 Not Found: /image_codes/20e1238f-898e-4472-ad86-f16703d61e5d/
+INFO 2022-11-07 10:56:03,158 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-07 10:56:03,158 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-07 10:56:03,158 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2022-11-07 10:56:03,158 basehttp 161 "GET /image_codes/20e1238f-898e-4472-ad86-f16703d61e5d/ HTTP/1.1" 404 2577
+INFO 2022-11-07 10:56:03,159 basehttp 75 - Broken pipe from ('127.0.0.1', 64008)
+
+INFO 2022-11-07 10:56:03,159 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-07 10:56:03,170 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-08 01:30:53,241 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 01:31:52,215 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 01:32:18,613 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 01:44:10,513 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-08 01:44:10,791 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 01:44:37,866 basehttp 161 "GET / HTTP/1.1" 200 1454
+INFO 2022-11-08 01:44:37,868 basehttp 161 "GET / HTTP/1.1" 200 1454
+INFO 2022-11-08 01:44:37,888 basehttp 161 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2022-11-08 01:44:44,488 basehttp 161 "GET /register/ HTTP/1.1" 200 4835
+INFO 2022-11-08 01:44:44,511 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2022-11-08 01:44:44,604 log 224 Not Found: /image_codes/40b6e986-d30b-402e-980a-c94f671787f8/
+WARNING 2022-11-08 01:44:44,605 basehttp 161 "GET /image_codes/40b6e986-d30b-402e-980a-c94f671787f8/ HTTP/1.1" 404 2577
+WARNING 2022-11-08 01:44:49,413 log 224 Not Found: /usernames/asdasd/count/
+WARNING 2022-11-08 01:44:49,414 basehttp 161 "GET /usernames/asdasd/count/ HTTP/1.1" 404 2499
+WARNING 2022-11-08 01:45:03,966 log 224 Not Found: /mobiles/18912345678/count/
+WARNING 2022-11-08 01:45:03,968 basehttp 161 "GET /mobiles/18912345678/count/ HTTP/1.1" 404 2508
+WARNING 2022-11-08 01:45:03,975 log 224 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2022-11-08 01:45:03,984 basehttp 161 "POST /register/ HTTP/1.1" 403 2519
+INFO 2022-11-08 01:45:03,993 basehttp 161 "POST /register/ HTTP/1.1" 200 4953
+WARNING 2022-11-08 01:45:04,042 log 224 Not Found: /image_codes/9eaa6606-fe01-4428-9f4e-0f62a6ce9f0c/
+WARNING 2022-11-08 01:45:04,043 basehttp 161 "GET /image_codes/9eaa6606-fe01-4428-9f4e-0f62a6ce9f0c/ HTTP/1.1" 404 2577
+INFO 2022-11-08 01:46:28,020 basehttp 161 "POST /register/ HTTP/1.1" 200 4932
+WARNING 2022-11-08 01:46:28,077 log 224 Not Found: /image_codes/9151fd5c-ee9b-4f92-b827-b122c701300d/
+WARNING 2022-11-08 01:46:28,078 basehttp 161 "GET /image_codes/9151fd5c-ee9b-4f92-b827-b122c701300d/ HTTP/1.1" 404 2577
+INFO 2022-11-08 01:46:39,174 basehttp 161 "POST /register/ HTTP/1.1" 200 4932
+WARNING 2022-11-08 01:46:39,234 log 224 Not Found: /image_codes/3ceaf57b-148f-4ff2-a71f-dbb18085cb8f/
+WARNING 2022-11-08 01:46:39,234 basehttp 161 "GET /image_codes/3ceaf57b-148f-4ff2-a71f-dbb18085cb8f/ HTTP/1.1" 404 2577
+INFO 2022-11-08 01:46:50,672 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 01:46:57,966 basehttp 161 "POST /register/ HTTP/1.1" 200 4932
+WARNING 2022-11-08 01:46:58,034 log 224 Not Found: /image_codes/8fb8777d-083a-4bb8-944f-554fd1fa601a/
+WARNING 2022-11-08 01:46:58,034 basehttp 161 "GET /image_codes/8fb8777d-083a-4bb8-944f-554fd1fa601a/ HTTP/1.1" 404 2577
+WARNING 2022-11-08 01:47:05,752 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-08 01:47:16,963 basehttp 161 "POST /register/ HTTP/1.1" 200 4932
+INFO 2022-11-08 01:47:16,983 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-08 01:47:16,985 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-08 01:47:16,986 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-08 01:47:16,987 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-08 01:47:16,989 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-08 01:47:17,035 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9771
+INFO 2022-11-08 01:47:17,038 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2022-11-08 01:47:17,053 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-08 01:47:17,053 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-08 01:47:17,054 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-08 01:47:17,055 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-08 01:47:17,061 log 224 Not Found: /image_codes/0e10c726-f4c3-491e-8f74-3db156c1d493/
+WARNING 2022-11-08 01:47:17,061 basehttp 161 "GET /image_codes/0e10c726-f4c3-491e-8f74-3db156c1d493/ HTTP/1.1" 404 2577
+WARNING 2022-11-08 01:47:17,183 log 224 Not Found: /favicon.ico
+WARNING 2022-11-08 01:47:17,184 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2463
+WARNING 2022-11-08 01:47:38,865 log 224 Forbidden (CSRF cookie not set.): /register/
+WARNING 2022-11-08 01:47:38,870 basehttp 161 "POST /register/ HTTP/1.1" 403 2870
+INFO 2022-11-08 01:47:43,546 basehttp 161 "GET /register/ HTTP/1.1" 200 4835
+INFO 2022-11-08 01:47:43,564 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-08 01:47:43,565 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-08 01:47:43,565 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-08 01:47:43,566 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-08 01:47:43,568 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-08 01:47:43,627 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9771
+INFO 2022-11-08 01:47:43,630 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2022-11-08 01:47:43,643 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-08 01:47:43,645 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-08 01:47:43,646 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-08 01:47:43,647 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-08 01:47:43,653 log 224 Not Found: /image_codes/e9abf64d-93cd-46dd-a1f8-7cd14cee5f17/
+WARNING 2022-11-08 01:47:43,654 basehttp 161 "GET /image_codes/e9abf64d-93cd-46dd-a1f8-7cd14cee5f17/ HTTP/1.1" 404 2577
+WARNING 2022-11-08 01:47:48,603 log 224 Not Found: /usernames/sdfbsdfb/count/
+WARNING 2022-11-08 01:47:48,604 basehttp 161 "GET /usernames/sdfbsdfb/count/ HTTP/1.1" 404 2505
+WARNING 2022-11-08 01:48:03,239 log 224 Not Found: /mobiles/18912345678/count/
+WARNING 2022-11-08 01:48:03,240 log 224 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2022-11-08 01:48:03,240 basehttp 161 "GET /mobiles/18912345678/count/ HTTP/1.1" 404 2508
+WARNING 2022-11-08 01:48:03,241 basehttp 161 "POST /register/ HTTP/1.1" 403 2519
+INFO 2022-11-08 01:48:03,245 basehttp 161 "POST /register/ HTTP/1.1" 200 4932
+INFO 2022-11-08 01:48:03,273 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-08 01:48:03,274 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-08 01:48:03,275 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-08 01:48:03,275 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-08 01:48:03,276 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-08 01:48:03,326 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9771
+INFO 2022-11-08 01:48:03,343 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-08 01:48:03,343 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-08 01:48:03,344 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2022-11-08 01:48:03,344 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-08 01:48:03,344 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-08 01:48:03,356 log 224 Not Found: /image_codes/f77b3858-4351-44c6-96e1-1718ad72cd77/
+WARNING 2022-11-08 01:48:03,356 basehttp 161 "GET /image_codes/f77b3858-4351-44c6-96e1-1718ad72cd77/ HTTP/1.1" 404 2577
+INFO 2022-11-08 01:49:12,769 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-08 01:49:13,034 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 01:57:00,389 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-08 01:57:00,664 autoreload 637 Watching for file changes with StatReloader
+WARNING 2022-11-08 02:03:58,146 log 224 Not Found: /usernames/test77/count/
+WARNING 2022-11-08 02:03:58,147 basehttp 161 "GET /usernames/test77/count/ HTTP/1.1" 404 2499
+WARNING 2022-11-08 02:04:13,398 log 224 Not Found: /mobiles/13001985587/count/
+WARNING 2022-11-08 02:04:13,400 basehttp 161 "GET /mobiles/13001985587/count/ HTTP/1.1" 404 2508
+WARNING 2022-11-08 02:04:13,412 log 224 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2022-11-08 02:04:13,412 basehttp 161 "POST /register/ HTTP/1.1" 403 2519
+INFO 2022-11-08 02:04:13,525 basehttp 161 "POST /register/ HTTP/1.1" 302 0
+INFO 2022-11-08 02:04:13,533 basehttp 161 "GET / HTTP/1.1" 200 1454
+INFO 2022-11-08 02:04:13,553 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-08 02:04:13,554 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-08 02:04:13,555 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-08 02:04:13,555 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-08 02:04:13,556 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2022-11-08 02:04:13,557 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+WARNING 2022-11-08 02:04:13,641 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-08 02:23:27,560 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2022-11-08 02:23:27,908 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 02:24:00,081 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-08 02:24:00,341 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 02:24:18,038 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-08 02:24:18,310 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 02:27:00,685 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-08 02:27:00,974 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 02:34:20,644 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 02:37:13,738 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/utils/response_code.py changed, reloading.
+INFO 2022-11-08 02:37:14,020 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 02:38:10,185 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 02:38:50,057 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 02:38:54,489 basehttp 161 "GET /usernames/test88/count HTTP/1.1" 301 0
+INFO 2022-11-08 02:38:54,504 basehttp 161 "GET /usernames/test88/count/ HTTP/1.1" 200 41
+INFO 2022-11-08 02:39:15,318 basehttp 161 "GET /usernames/test838/count/ HTTP/1.1" 200 41
+INFO 2022-11-08 02:39:23,935 basehttp 161 "GET /usernames/test88/count/ HTTP/1.1" 200 41
+INFO 2022-11-08 02:39:27,930 basehttp 161 "GET /usernames/test88/count/ HTTP/1.1" 200 41
+INFO 2022-11-08 02:45:03,980 basehttp 161 "GET /register/ HTTP/1.1" 200 4835
+INFO 2022-11-08 02:45:04,021 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-08 02:45:04,026 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-08 02:45:04,029 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-08 02:45:04,030 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-08 02:45:04,032 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-08 02:45:04,080 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9808
+INFO 2022-11-08 02:45:04,080 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-08 02:45:04,103 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-08 02:45:04,104 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-08 02:45:04,110 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-08 02:45:04,120 log 224 Not Found: /image_codes/7ce4e912-f410-4317-b291-122e31c3290b/
+WARNING 2022-11-08 02:45:04,121 basehttp 161 "GET /image_codes/7ce4e912-f410-4317-b291-122e31c3290b/ HTTP/1.1" 404 2772
+WARNING 2022-11-08 02:45:04,121 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-08 02:45:12,226 basehttp 161 "GET /usernames/test88/count/ HTTP/1.1" 200 41
+INFO 2022-11-08 02:45:17,815 basehttp 161 "GET /usernames/test88/count/ HTTP/1.1" 200 41
+INFO 2022-11-08 02:50:02,462 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2022-11-08 02:50:02,820 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 02:52:03,826 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-08 02:52:04,125 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 02:53:00,007 basehttp 161 "GET /mobiles/18187654322/count HTTP/1.1" 301 0
+INFO 2022-11-08 02:53:00,033 basehttp 161 "GET /mobiles/18187654322/count/ HTTP/1.1" 200 41
+INFO 2022-11-08 02:53:00,061 basehttp 161 "GET /usernames/test88/count/ HTTP/1.1" 200 41
+INFO 2022-11-08 03:05:36,715 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2022-11-08 03:05:37,086 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 03:22:26,174 basehttp 161 "GET /register/ HTTP/1.1" 200 4835
+INFO 2022-11-08 03:22:26,209 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-08 03:22:26,212 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-08 03:22:26,212 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-08 03:22:26,213 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-08 03:22:26,216 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-08 03:22:26,278 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9863
+INFO 2022-11-08 03:22:26,278 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-08 03:22:26,288 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-08 03:22:26,288 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-08 03:22:26,291 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-08 03:22:26,297 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2022-11-08 03:22:26,302 log 224 Not Found: /image_codes/ffc7a2d5-af61-454f-80ec-8b3ae417bce6/
+WARNING 2022-11-08 03:22:26,302 basehttp 161 "GET /image_codes/ffc7a2d5-af61-454f-80ec-8b3ae417bce6/ HTTP/1.1" 404 2958
+INFO 2022-11-08 03:24:44,097 basehttp 161 "GET /register/ HTTP/1.1" 200 4835
+INFO 2022-11-08 03:24:44,128 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-08 03:24:44,129 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-08 03:24:44,130 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-08 03:24:44,131 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-08 03:24:44,132 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-08 03:24:44,199 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9863
+INFO 2022-11-08 03:24:44,199 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-08 03:24:44,209 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+WARNING 2022-11-08 03:24:44,211 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-08 03:24:44,211 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-08 03:24:44,212 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-08 03:24:44,223 log 224 Not Found: /image_codes/edf90a23-09a1-4f06-85f3-1370529d278a/
+WARNING 2022-11-08 03:24:44,224 basehttp 161 "GET /image_codes/edf90a23-09a1-4f06-85f3-1370529d278a/ HTTP/1.1" 404 2958
+WARNING 2022-11-08 03:24:44,362 log 224 Not Found: /favicon.ico
+WARNING 2022-11-08 03:24:44,362 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2844
+INFO 2022-11-08 03:25:17,556 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-08 03:25:17,569 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+WARNING 2022-11-08 03:25:17,573 log 224 Not Found: /image_codes/ffc7a2d5-af61-454f-80ec-8b3ae417bce6/
+WARNING 2022-11-08 03:25:17,591 basehttp 161 "GET /image_codes/ffc7a2d5-af61-454f-80ec-8b3ae417bce6/ HTTP/1.1" 404 2958
+INFO 2022-11-08 03:25:17,573 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-08 03:25:24,588 log 224 Not Found: /image_codes/ffc7a2d5-af61-454f-80ec-8b3ae417bce6/
+WARNING 2022-11-08 03:25:24,589 basehttp 161 "GET /image_codes/ffc7a2d5-af61-454f-80ec-8b3ae417bce6/ HTTP/1.1" 404 2958
+INFO 2022-11-08 03:25:24,589 basehttp 75 - Broken pipe from ('127.0.0.1', 59596)
+
+INFO 2022-11-08 03:41:20,116 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2022-11-08 03:41:20,439 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 03:41:22,481 basehttp 161 "GET /register/ HTTP/1.1" 200 4835
+INFO 2022-11-08 03:41:22,517 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-08 03:41:22,526 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-08 03:41:22,528 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-08 03:41:22,528 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-08 03:41:22,530 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-08 03:41:22,608 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-08 03:41:22,608 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-08 03:41:22,609 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9863
+INFO 2022-11-08 03:41:22,618 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-08 03:41:22,621 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-08 03:41:22,626 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-08 03:41:22,638 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+ERROR 2022-11-08 03:41:22,670 log 224 Internal Server Error: /image_codes/0e10c726-f4c3-491e-8f74-3db156c1d493/
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/utils/connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/asgiref/local.py", line 107, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x1014d5d60> object has no attribute 'image_code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py", line 18, in get
+    redis_cli = get_redis_connection('image_code')
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django_redis/__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/utils/connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'image_code' doesn't exist.
+ERROR 2022-11-08 03:41:22,682 log 224 Internal Server Error: /image_codes/e1a037eb-0dcc-4587-8ae4-72a7da6df7aa/
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/utils/connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/asgiref/local.py", line 107, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x1014d5d60> object has no attribute 'image_code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py", line 18, in get
+    redis_cli = get_redis_connection('image_code')
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django_redis/__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/utils/connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'image_code' doesn't exist.
+ERROR 2022-11-08 03:41:22,684 basehttp 161 "GET /image_codes/0e10c726-f4c3-491e-8f74-3db156c1d493/ HTTP/1.1" 500 98832
+INFO 2022-11-08 03:41:22,685 basehttp 75 - Broken pipe from ('127.0.0.1', 49664)
+
+ERROR 2022-11-08 03:41:22,685 basehttp 161 "GET /image_codes/e1a037eb-0dcc-4587-8ae4-72a7da6df7aa/ HTTP/1.1" 500 100203
+ERROR 2022-11-08 03:41:25,207 log 224 Internal Server Error: /image_codes/e9abf64d-93cd-46dd-a1f8-7cd14cee5f17/
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/utils/connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/asgiref/local.py", line 107, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x1014d5d60> object has no attribute 'image_code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py", line 18, in get
+    redis_cli = get_redis_connection('image_code')
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django_redis/__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/utils/connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'image_code' doesn't exist.
+ERROR 2022-11-08 03:41:25,209 basehttp 161 "GET /image_codes/e9abf64d-93cd-46dd-a1f8-7cd14cee5f17/ HTTP/1.1" 500 98852
+INFO 2022-11-08 03:41:25,209 basehttp 75 - Broken pipe from ('127.0.0.1', 49663)
+
+ERROR 2022-11-08 03:41:25,231 log 224 Internal Server Error: /image_codes/f77b3858-4351-44c6-96e1-1718ad72cd77/
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/utils/connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/asgiref/local.py", line 107, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x1014d5d60> object has no attribute 'image_code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py", line 18, in get
+    redis_cli = get_redis_connection('image_code')
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django_redis/__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/utils/connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'image_code' doesn't exist.
+ERROR 2022-11-08 03:41:25,232 basehttp 161 "GET /image_codes/f77b3858-4351-44c6-96e1-1718ad72cd77/ HTTP/1.1" 500 98842
+INFO 2022-11-08 03:41:25,233 basehttp 75 - Broken pipe from ('127.0.0.1', 49665)
+
+ERROR 2022-11-08 03:41:27,076 log 224 Internal Server Error: /image_codes/ffc7a2d5-af61-454f-80ec-8b3ae417bce6/
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/utils/connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/asgiref/local.py", line 107, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x1014d5d60> object has no attribute 'image_code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py", line 18, in get
+    redis_cli = get_redis_connection('image_code')
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django_redis/__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/utils/connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'image_code' doesn't exist.
+ERROR 2022-11-08 03:41:27,076 basehttp 161 "GET /image_codes/ffc7a2d5-af61-454f-80ec-8b3ae417bce6/ HTTP/1.1" 500 98845
+INFO 2022-11-08 03:41:27,077 basehttp 75 - Broken pipe from ('127.0.0.1', 49666)
+
+INFO 2022-11-08 03:44:26,798 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 03:44:27,083 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 03:45:47,999 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 03:45:48,313 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 03:51:29,551 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/libs/captcha/captcha.py changed, reloading.
+INFO 2022-11-08 03:51:29,851 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 03:51:55,873 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/libs/captcha/captcha.py changed, reloading.
+INFO 2022-11-08 03:51:56,117 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 03:52:38,403 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/libs/captcha/captcha.py changed, reloading.
+INFO 2022-11-08 03:52:38,687 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 03:53:35,608 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/libs/captcha/captcha.py changed, reloading.
+INFO 2022-11-08 03:53:35,884 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 03:57:35,735 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2022-11-08 03:57:36,052 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 04:08:11,031 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 04:08:11,395 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 04:10:40,711 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 04:10:40,986 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 04:11:18,312 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 04:11:18,625 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 04:11:41,504 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 04:11:41,769 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 04:12:45,137 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 04:12:45,415 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 04:19:44,547 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 04:19:44,827 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 04:20:05,654 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 04:20:05,920 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 04:22:17,368 basehttp 161 "GET /register/ HTTP/1.1" 200 4835
+INFO 2022-11-08 04:22:17,405 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-08 04:22:17,407 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-08 04:22:17,407 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-08 04:22:17,407 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-08 04:22:17,410 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-08 04:22:17,473 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9863
+INFO 2022-11-08 04:22:17,477 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-08 04:22:17,503 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-08 04:22:17,514 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-08 04:22:17,517 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-08 04:22:17,528 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+ERROR 2022-11-08 04:22:17,566 log 224 Internal Server Error: /image_codes/f8788fee-97cb-47ce-956b-68ad13071786/
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py", line 22, in get
+    redis_cli.setex('img_%' % uuid, constants.IMAGE_CODE_EXPIRES, text)
+ValueError: incomplete format
+ERROR 2022-11-08 04:22:17,568 basehttp 161 "GET /image_codes/f8788fee-97cb-47ce-956b-68ad13071786/ HTTP/1.1" 500 84395
+INFO 2022-11-08 04:22:51,906 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 04:22:56,253 basehttp 161 "GET /register/ HTTP/1.1" 200 4835
+INFO 2022-11-08 04:22:56,289 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-08 04:22:56,290 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-08 04:22:56,291 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-08 04:22:56,292 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-08 04:22:56,295 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-08 04:22:56,344 basehttp 161 "GET /image_codes/0e10c726-f4c3-491e-8f74-3db156c1d493/ HTTP/1.1" 200 2974
+INFO 2022-11-08 04:22:56,351 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9863
+INFO 2022-11-08 04:22:56,351 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-08 04:22:56,367 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-08 04:22:56,367 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-08 04:22:56,368 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-08 04:22:56,378 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-08 04:22:56,381 basehttp 161 "GET /image_codes/279db837-c669-4695-a164-438fcddc3294/ HTTP/1.1" 200 3335
+INFO 2022-11-08 04:23:15,918 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 04:23:16,195 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 04:23:44,251 basehttp 161 "GET /register/ HTTP/1.1" 200 4835
+INFO 2022-11-08 04:23:44,301 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-08 04:23:44,301 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-08 04:23:44,302 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-08 04:23:44,303 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-08 04:23:44,304 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-08 04:23:44,341 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9863
+INFO 2022-11-08 04:23:44,342 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-08 04:23:44,366 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-08 04:23:44,367 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-08 04:23:44,371 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-08 04:23:44,376 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-08 04:23:44,388 basehttp 161 "GET /image_codes/32ece800-f4db-4c87-95b3-e6f44e1401c6/ HTTP/1.1" 200 3151
+INFO 2022-11-08 04:24:33,833 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 04:24:34,098 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 04:25:19,012 basehttp 161 "GET /image_codes/a2d535e9-2ee1-420f-be16-ac2e41358128/ HTTP/1.1" 200 3165
+INFO 2022-11-08 04:25:55,051 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 04:25:55,332 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 04:27:06,165 basehttp 161 "GET /image_codes/cce9f281-f71f-4525-8b4b-614f3c4e29d7/ HTTP/1.1" 200 3198
+INFO 2022-11-08 04:28:13,466 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 04:28:13,724 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 04:28:21,289 basehttp 161 "GET /image_codes/50fa1487-6d5d-4412-9469-535c20e871b9/ HTTP/1.1" 200 3564
+INFO 2022-11-08 04:28:55,408 basehttp 161 "GET /register/ HTTP/1.1" 200 4835
+INFO 2022-11-08 04:28:55,440 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-08 04:28:55,442 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-08 04:28:55,442 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-08 04:28:55,443 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-08 04:28:55,444 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-08 04:28:55,520 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9863
+INFO 2022-11-08 04:28:55,521 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-08 04:28:55,528 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-08 04:28:55,528 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-08 04:28:55,530 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2022-11-08 04:28:55,553 basehttp 161 "GET /image_codes/0c673536-2cb9-4db4-9263-718e466ebb21/ HTTP/1.1" 200 2806
+WARNING 2022-11-08 04:28:55,554 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-08 04:29:00,504 basehttp 161 "GET /image_codes/c3ee746a-1a57-4ad7-97a1-525284716cd9/ HTTP/1.1" 200 3285
+INFO 2022-11-08 04:31:24,281 basehttp 161 "GET /image_codes/c3ee746a-1a57-4ad7-97a1-525284716cd9/ HTTP/1.1" 200 3600
+INFO 2022-11-08 05:49:57,524 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+ERROR 2022-11-08 05:49:57,605 log 224 Internal Server Error: /image_codes/ba253409-02a6-42dd-a367-a26633650b7b/
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py", line 17, in get
+    print(text, code)  # VEMZ6bU3x9agGOilpWR85qIK PFMN
+BrokenPipeError: [Errno 32] Broken pipe
+ERROR 2022-11-08 05:49:57,624 basehttp 161 "GET /image_codes/ba253409-02a6-42dd-a367-a26633650b7b/ HTTP/1.1" 500 83865
+WARNING 2022-11-08 05:50:03,627 log 224 Not Found: /favicon.ico
+WARNING 2022-11-08 05:50:03,628 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3029
+WARNING 2022-11-08 05:50:03,634 log 224 Not Found: /favicon.ico
+WARNING 2022-11-08 05:50:03,635 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3029
+INFO 2022-11-08 06:01:18,099 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+ERROR 2022-11-08 06:01:18,200 log 224 Internal Server Error: /image_codes/6075249e-33b9-492c-ace6-b0611078e154/
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py", line 17, in get
+    print(text, code)  # VEMZ6bU3x9agGOilpWR85qIK PFMN
+BrokenPipeError: [Errno 32] Broken pipe
+ERROR 2022-11-08 06:01:18,200 basehttp 161 "GET /image_codes/6075249e-33b9-492c-ace6-b0611078e154/ HTTP/1.1" 500 83630
+INFO 2022-11-08 06:01:26,500 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 06:01:53,322 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 06:01:56,997 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-08 06:01:57,067 basehttp 161 "GET /image_codes/298a2c66-7f11-4955-a01c-fbfb4059dc52/ HTTP/1.1" 200 3549
+WARNING 2022-11-08 06:02:08,090 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-08 06:02:14,860 basehttp 161 "GET /image_codes/c4d809b5-1a58-45c9-862a-9e5e7ba81ca2/ HTTP/1.1" 200 3290
+INFO 2022-11-08 06:38:45,779 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-08 06:38:46,048 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 06:45:05,502 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2022-11-08 06:45:05,756 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 07:00:07,610 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/urls.py changed, reloading.
+INFO 2022-11-08 07:00:07,892 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 07:00:56,413 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 07:00:56,588 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 07:02:28,282 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 07:02:28,540 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 07:07:29,428 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 07:07:29,617 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 07:17:11,220 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 07:29:09,526 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 07:29:09,822 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 08:24:56,157 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 08:24:56,447 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 08:25:22,474 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2022-11-08 08:25:22,718 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 08:26:20,007 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2022-11-08 08:26:20,293 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 08:26:55,700 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2022-11-08 08:26:55,945 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 08:27:47,706 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2022-11-08 08:27:47,984 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 08:29:23,307 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2022-11-08 08:29:23,584 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 08:30:16,707 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2022-11-08 08:30:16,994 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 08:30:42,794 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2022-11-08 08:30:43,068 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 08:31:17,370 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2022-11-08 08:31:17,650 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 08:39:45,206 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2022-11-08 08:39:45,466 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 08:44:07,178 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2022-11-08 08:44:07,494 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 08:45:48,502 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2022-11-08 08:45:48,787 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 08:55:28,861 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2022-11-08 08:55:29,168 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 09:41:59,518 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2022-11-08 09:41:59,804 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 09:45:07,169 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2022-11-08 09:45:07,471 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 09:49:41,599 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2022-11-08 09:49:41,881 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 09:52:08,450 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2022-11-08 09:52:08,727 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 09:52:43,679 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2022-11-08 09:52:43,948 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 09:54:46,200 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2022-11-08 09:54:46,487 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 09:55:11,368 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2022-11-08 09:55:11,626 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 09:59:56,236 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2022-11-08 09:59:56,520 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 10:05:48,972 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 10:05:49,243 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 10:06:41,926 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 10:06:42,175 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 10:07:08,076 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 10:07:08,347 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 10:07:25,055 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 10:07:25,308 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 10:08:49,030 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 10:08:49,317 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 10:10:30,493 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 10:10:30,765 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 10:11:27,491 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 10:11:27,676 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 10:12:01,634 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 10:12:01,837 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 10:15:28,780 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 10:15:29,038 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 10:15:47,752 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 10:15:47,994 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 10:21:20,651 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 10:21:20,955 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 10:23:20,369 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 10:23:20,646 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 10:24:43,129 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 10:24:43,404 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 10:28:49,713 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 10:28:50,036 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 10:31:03,482 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 10:31:03,765 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 10:39:49,794 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 10:39:50,099 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 10:41:17,671 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 10:41:17,941 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 10:42:25,630 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 10:42:25,896 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 10:44:58,413 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 10:44:58,684 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 10:47:00,118 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-08 10:47:00,388 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-08 10:54:41,784 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2022-11-08 10:54:42,073 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 01:50:47,713 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 01:51:08,801 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 02:05:37,498 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 02:05:37,531 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 02:05:37,531 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 02:05:37,532 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 02:05:37,534 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 02:05:37,535 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 02:05:37,593 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9925
+INFO 2022-11-09 02:05:37,600 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-09 02:05:37,635 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 02:05:37,637 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-09 02:05:37,642 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-09 02:05:37,649 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 02:05:37,664 basehttp 161 "GET /image_codes/5635bde8-8868-46c9-9f77-6f0599b36210/ HTTP/1.1" 200 3321
+INFO 2022-11-09 02:05:46,309 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 02:05:46,334 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 02:05:46,335 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 02:05:46,336 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 02:05:46,336 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 02:05:46,338 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 02:05:46,398 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9925
+INFO 2022-11-09 02:05:46,410 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-09 02:05:46,412 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 02:05:46,413 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2022-11-09 02:05:46,414 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+WARNING 2022-11-09 02:05:46,414 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 02:05:46,431 basehttp 161 "GET /image_codes/a4ea28d3-2628-467b-b97f-e8a1b54a5967/ HTTP/1.1" 200 3657
+INFO 2022-11-09 02:05:59,024 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 02:06:06,651 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 02:06:07,038 basehttp 161 "GET /sms_codes/18479783236/?image_code=rube&uuid=a4ea28d3-2628-467b-b97f-e8a1b54a5967 HTTP/1.1" 200 63
+INFO 2022-11-09 02:06:49,911 basehttp 161 "GET /usernames/test881/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 02:07:04,934 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 02:07:04,935 basehttp 161 "GET /usernames/test881/count/ HTTP/1.1" 200 41
+WARNING 2022-11-09 02:07:04,939 log 224 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2022-11-09 02:07:04,942 basehttp 161 "POST /register/ HTTP/1.1" 403 2519
+WARNING 2022-11-09 02:07:04,947 log 224 Forbidden: /register/
+WARNING 2022-11-09 02:07:04,948 basehttp 161 "POST /register/ HTTP/1.1" 403 27
+INFO 2022-11-09 02:07:20,941 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 02:07:20,969 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 02:07:20,971 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 02:07:20,971 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 02:07:20,973 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 02:07:20,975 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 02:07:21,025 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9925
+INFO 2022-11-09 02:07:21,028 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-09 02:07:21,039 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 02:07:21,040 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+WARNING 2022-11-09 02:07:21,041 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 02:07:21,041 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2022-11-09 02:07:21,061 basehttp 161 "GET /image_codes/9a616243-aa05-4dfa-a05d-a479442a45cf/ HTTP/1.1" 200 3248
+INFO 2022-11-09 02:37:59,062 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 02:39:41,358 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 02:42:08,907 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 02:44:32,016 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 02:44:32,045 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 02:44:32,049 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 02:44:32,050 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 02:44:32,052 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 02:44:32,053 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 02:44:32,110 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9928
+INFO 2022-11-09 02:44:32,111 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-09 02:44:32,125 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-09 02:44:32,136 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 02:44:32,139 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-09 02:44:32,148 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 02:44:32,155 basehttp 161 "GET /image_codes/ec3b6bf6-9b9b-4ee7-bb6f-0303aaf88b9f/ HTTP/1.1" 200 3599
+INFO 2022-11-09 02:45:11,232 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 02:45:11,311 basehttp 161 "GET /image_codes/ae67098a-27e4-479b-b7f4-96894f3d3fed/ HTTP/1.1" 200 2948
+INFO 2022-11-09 02:45:12,527 basehttp 161 "GET /image_codes/539e6c51-5b0d-4be9-99a4-002746e385ee/ HTTP/1.1" 200 3249
+INFO 2022-11-09 02:45:22,702 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 02:45:22,977 basehttp 161 "GET /sms_codes/18479783236/?image_code=n9x3&uuid=539e6c51-5b0d-4be9-99a4-002746e385ee HTTP/1.1" 200 63
+WARNING 2022-11-09 02:45:45,222 log 224 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2022-11-09 02:45:45,225 basehttp 161 "POST /register/ HTTP/1.1" 403 2519
+INFO 2022-11-09 02:45:45,228 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 02:45:55,324 basehttp 161 "GET /usernames/12345678/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 02:46:04,271 basehttp 161 "GET /usernames/12345678/count/ HTTP/1.1" 200 41
+WARNING 2022-11-09 02:46:04,275 log 224 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2022-11-09 02:46:04,275 basehttp 161 "POST /register/ HTTP/1.1" 403 2519
+INFO 2022-11-09 02:46:04,277 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+WARNING 2022-11-09 02:46:04,280 log 224 Forbidden: /register/
+WARNING 2022-11-09 02:46:04,280 basehttp 161 "POST /register/ HTTP/1.1" 403 27
+INFO 2022-11-09 02:49:44,023 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-09 02:49:44,280 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 02:49:54,971 basehttp 161 "GET /image_codes/ae67098a-27e4-479b-b7f4-96894f3d3fed/ HTTP/1.1" 200 3234
+INFO 2022-11-09 02:49:54,971 basehttp 161 "GET /image_codes/ec3b6bf6-9b9b-4ee7-bb6f-0303aaf88b9f/ HTTP/1.1" 200 3097
+INFO 2022-11-09 02:49:54,971 basehttp 161 "GET /image_codes/539e6c51-5b0d-4be9-99a4-002746e385ee/ HTTP/1.1" 200 3079
+WARNING 2022-11-09 02:51:18,480 log 224 Forbidden: /register/
+WARNING 2022-11-09 02:51:18,481 basehttp 161 "POST /register/ HTTP/1.1" 403 27
+WARNING 2022-11-09 02:51:20,752 log 224 Forbidden: /register/
+WARNING 2022-11-09 02:51:20,753 basehttp 161 "POST /register/ HTTP/1.1" 403 27
+INFO 2022-11-09 02:51:25,112 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 02:51:25,135 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 02:51:25,135 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 02:51:25,136 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 02:51:25,137 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 02:51:25,138 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 02:51:25,201 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9928
+INFO 2022-11-09 02:51:25,202 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-09 02:51:25,208 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-09 02:51:25,220 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 02:51:25,228 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2022-11-09 02:51:25,237 basehttp 161 "GET /image_codes/d71a0ddb-41cd-474b-9322-7c0283db4479/ HTTP/1.1" 200 3311
+WARNING 2022-11-09 02:51:25,238 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 02:51:45,174 basehttp 161 "GET /image_codes/b46dbc79-ff38-494c-952c-5bb17a986f68/ HTTP/1.1" 200 3232
+INFO 2022-11-09 02:51:46,465 basehttp 161 "GET /image_codes/2d02ee0f-9146-45dd-a349-be353e0dcc9b/ HTTP/1.1" 200 3455
+INFO 2022-11-09 02:51:54,846 basehttp 161 "GET /image_codes/47a128fe-debb-4a85-b886-19a448dc5b29/ HTTP/1.1" 200 3485
+INFO 2022-11-09 02:51:56,636 basehttp 161 "GET /image_codes/7bf2b7d9-69df-4c5f-a27a-42cb5672d034/ HTTP/1.1" 200 3501
+INFO 2022-11-09 02:52:08,674 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 02:52:21,394 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 02:52:21,673 basehttp 161 "GET /sms_codes/18479783236/?image_code=9bxe&uuid=7bf2b7d9-69df-4c5f-a27a-42cb5672d034 HTTP/1.1" 200 63
+INFO 2022-11-09 02:53:15,012 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-09 02:53:15,267 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 02:53:21,739 basehttp 161 "GET /image_codes/46c2a7a3-40cd-4a74-9e70-b74a4bcaa05c/ HTTP/1.1" 200 3031
+INFO 2022-11-09 03:03:22,902 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-09 03:03:23,186 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 03:04:36,710 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-09 03:04:37,004 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 03:06:59,379 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-09 03:06:59,654 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 03:08:12,678 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-09 03:08:12,930 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 03:10:07,214 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-09 03:10:07,490 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 03:11:21,080 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 03:11:21,115 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 03:11:21,116 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 03:11:21,117 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 03:11:21,117 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 03:11:21,118 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 03:11:21,178 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9966
+INFO 2022-11-09 03:11:21,186 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-09 03:11:21,196 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 03:11:21,196 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-09 03:11:21,202 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-09 03:11:21,206 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 03:11:21,236 basehttp 161 "GET /image_codes/a1eb35ea-d2f3-4bfa-a025-845a04f20948/ HTTP/1.1" 200 2987
+INFO 2022-11-09 03:11:27,975 basehttp 161 "GET /image_codes/8f83cc5b-dd59-4676-8ff5-712276e365f1/ HTTP/1.1" 200 3436
+INFO 2022-11-09 03:11:34,019 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 03:11:43,838 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+ERROR 2022-11-09 03:11:43,863 log 224 Internal Server Error: /sms_codes/18479783236/
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py", line 59, in get
+    return http.JsonResponse({'code': RET.IMAGECODEERR, 'errmsg': '输入的图形验证码有误'})
+AttributeError: type object 'RET' has no attribute 'IMAGECODEERR'
+ERROR 2022-11-09 03:11:43,867 basehttp 161 "GET /sms_codes/18479783236/?image_code=ecms&uuid=8f83cc5b-dd59-4676-8ff5-712276e365f1 HTTP/1.1" 500 80193
+INFO 2022-11-09 03:16:17,341 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/utils/response_code.py changed, reloading.
+INFO 2022-11-09 03:16:17,627 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 03:16:28,419 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 03:16:28,453 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 03:16:28,455 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 03:16:28,462 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 03:16:28,463 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 03:16:28,465 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 03:16:28,516 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9966
+INFO 2022-11-09 03:16:28,537 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 03:16:28,539 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-09 03:16:28,550 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-09 03:16:28,552 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-09 03:16:28,560 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 03:16:28,569 basehttp 161 "GET /image_codes/a108c7c6-3085-47c5-9c68-8042db170a36/ HTTP/1.1" 200 3002
+INFO 2022-11-09 03:16:45,854 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 03:16:49,882 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 03:16:49,906 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 03:16:49,907 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 03:16:49,907 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 03:16:49,908 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 03:16:49,909 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 03:16:49,960 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9966
+INFO 2022-11-09 03:16:49,964 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-09 03:16:49,981 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-09 03:16:49,983 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 03:16:49,993 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-09 03:16:49,999 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 03:16:50,007 basehttp 161 "GET /image_codes/931cc823-f928-4199-86c2-850dc6f2b491/ HTTP/1.1" 200 3182
+INFO 2022-11-09 03:18:18,268 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 03:18:24,846 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 03:18:24,863 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 03:18:24,864 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 03:18:24,871 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 03:18:24,872 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 03:18:24,873 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 03:18:24,928 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9966
+INFO 2022-11-09 03:18:24,940 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 03:18:24,941 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-09 03:18:24,943 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-09 03:18:24,945 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-09 03:18:24,955 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 03:18:24,968 basehttp 161 "GET /image_codes/cb92e96e-b102-4e7c-887a-21061e59dc86/ HTTP/1.1" 200 3351
+WARNING 2022-11-09 03:18:25,077 log 224 Not Found: /favicon.ico
+WARNING 2022-11-09 03:18:25,077 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3219
+INFO 2022-11-09 03:18:28,429 basehttp 161 "GET /image_codes/7f116650-5043-4185-8e53-9d9133ba9c0b/ HTTP/1.1" 200 3072
+INFO 2022-11-09 03:18:37,336 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 03:18:37,352 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 03:18:37,353 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 03:18:37,354 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 03:18:37,355 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 03:18:37,356 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 03:18:37,410 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9966
+INFO 2022-11-09 03:18:37,424 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 03:18:37,424 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2022-11-09 03:18:37,424 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 03:18:37,425 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-09 03:18:37,426 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2022-11-09 03:18:37,447 basehttp 161 "GET /image_codes/16349f95-0e5d-4a09-806f-459c21129580/ HTTP/1.1" 200 3797
+INFO 2022-11-09 03:18:47,655 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 03:18:56,558 views 63 579320
+INFO 2022-11-09 03:18:56,571 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 03:18:56,853 basehttp 161 "GET /sms_codes/18479783236/?image_code=wuwh&uuid=16349f95-0e5d-4a09-806f-459c21129580 HTTP/1.1" 200 85
+INFO 2022-11-09 03:19:56,890 basehttp 161 "GET /image_codes/a24a170c-86f3-47e2-bdbd-e838249e739e/ HTTP/1.1" 200 3216
+INFO 2022-11-09 03:40:59,814 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-09 03:41:00,109 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 03:41:56,959 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-09 03:41:57,253 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 03:43:33,913 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-09 03:43:34,188 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 03:56:21,295 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 03:56:41,447 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 03:56:41,479 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 03:56:41,482 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 03:56:41,483 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 03:56:41,483 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 03:56:41,485 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 03:56:41,543 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9976
+INFO 2022-11-09 03:56:41,543 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-09 03:56:41,558 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-09 03:56:41,558 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 03:56:41,567 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-09 03:56:41,576 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 03:56:41,585 basehttp 161 "GET /image_codes/dab3a4a3-b321-4307-8907-daa33c2f83c5/ HTTP/1.1" 200 2997
+INFO 2022-11-09 03:57:37,205 basehttp 161 "GET /usernames/test1111/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 03:57:47,532 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 03:57:47,677 basehttp 161 "GET /image_codes/f4eb917b-4406-4a8c-a03c-0a737123e21a/ HTTP/1.1" 200 3215
+INFO 2022-11-09 03:57:56,459 views 63 507681
+INFO 2022-11-09 03:57:56,465 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 03:57:56,840 basehttp 161 "GET /sms_codes/18479783236/?image_code=qqnb&uuid=f4eb917b-4406-4a8c-a03c-0a737123e21a HTTP/1.1" 200 85
+INFO 2022-11-09 03:58:14,469 basehttp 161 "GET /usernames/test1111/count/ HTTP/1.1" 200 41
+WARNING 2022-11-09 03:58:14,475 log 224 Forbidden: /register/
+WARNING 2022-11-09 03:58:14,477 basehttp 161 "POST /register/ HTTP/1.1" 403 21
+INFO 2022-11-09 03:58:14,478 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+WARNING 2022-11-09 03:58:14,480 log 224 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2022-11-09 03:58:14,481 basehttp 161 "POST /register/ HTTP/1.1" 403 2519
+INFO 2022-11-09 04:07:30,134 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 04:07:34,781 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 04:07:34,818 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 04:07:34,820 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 04:07:34,821 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 04:07:34,821 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 04:07:34,823 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 04:07:34,917 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9976
+INFO 2022-11-09 04:07:34,919 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-09 04:07:34,920 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 04:07:34,921 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2022-11-09 04:07:34,929 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2022-11-09 04:07:34,951 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 04:07:34,960 basehttp 161 "GET /image_codes/7125d6fc-35c2-407e-9b8c-8d20834020d9/ HTTP/1.1" 200 3147
+INFO 2022-11-09 04:07:38,087 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 04:07:38,113 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 04:07:38,114 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 04:07:38,114 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 04:07:38,115 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 04:07:38,116 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 04:07:38,181 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9976
+INFO 2022-11-09 04:07:38,183 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-09 04:07:38,191 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2022-11-09 04:07:38,196 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 04:07:38,198 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+WARNING 2022-11-09 04:07:38,198 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 04:07:38,218 basehttp 161 "GET /image_codes/8137ec35-a694-4c0d-9711-cf380e047fbd/ HTTP/1.1" 200 3091
+INFO 2022-11-09 04:07:50,234 basehttp 161 "GET /usernames/test1111/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 04:08:04,290 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 04:08:04,407 basehttp 161 "GET /image_codes/e05899f3-b280-4a88-b2da-097c7f73263d/ HTTP/1.1" 200 2955
+INFO 2022-11-09 04:08:06,631 basehttp 161 "GET /image_codes/061b438f-062f-4e93-984e-f1f56d7f82b3/ HTTP/1.1" 200 3240
+INFO 2022-11-09 04:08:14,349 views 63 324144
+INFO 2022-11-09 04:08:14,357 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 04:08:14,684 basehttp 161 "GET /sms_codes/18479783236/?image_code=3nuq&uuid=061b438f-062f-4e93-984e-f1f56d7f82b3 HTTP/1.1" 200 85
+INFO 2022-11-09 04:08:38,589 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 04:08:38,590 basehttp 161 "GET /usernames/test1111/count/ HTTP/1.1" 200 41
+WARNING 2022-11-09 04:08:38,607 log 224 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2022-11-09 04:08:38,610 basehttp 161 "POST /register/ HTTP/1.1" 403 2519
+ERROR 2022-11-09 04:08:38,630 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py", line 63, in post
+    if not re.match('^[a-zA-Z0-9_-]{5,20}$', username):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/re.py", line 191, in match
+    return _compile(pattern, flags).match(string)
+TypeError: expected string or bytes-like object
+ERROR 2022-11-09 04:08:38,633 basehttp 161 "POST /register/ HTTP/1.1" 500 84327
+INFO 2022-11-09 04:15:02,137 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-11-09 04:15:06,157 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py", line 63, in post
+    if not re.match('^[a-zA-Z0-9_-]{5,20}$', username):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/re.py", line 191, in match
+    return _compile(pattern, flags).match(string)
+TypeError: expected string or bytes-like object
+ERROR 2022-11-09 04:15:06,161 basehttp 161 "POST /register/ HTTP/1.1" 500 84327
+INFO 2022-11-09 04:22:44,038 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 04:22:44,078 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 04:22:44,079 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 04:22:44,080 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 04:22:44,081 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 04:22:44,083 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 04:22:44,138 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9976
+INFO 2022-11-09 04:22:44,139 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-09 04:22:44,155 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+WARNING 2022-11-09 04:22:44,155 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 04:22:44,156 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 04:22:44,157 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2022-11-09 04:22:44,198 basehttp 161 "GET /image_codes/ced57660-4290-4f96-a8c8-195b7dcfc208/ HTTP/1.1" 200 3331
+INFO 2022-11-09 04:22:48,938 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 04:22:48,963 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 04:22:48,964 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 04:22:48,965 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 04:22:48,965 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 04:22:48,966 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 04:22:49,027 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9976
+INFO 2022-11-09 04:22:49,041 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-09 04:22:49,041 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-09 04:22:49,043 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-09 04:22:49,043 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 04:22:49,043 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 04:22:49,061 basehttp 161 "GET /image_codes/a50a304f-806b-4ab9-9ea5-5de50de8791c/ HTTP/1.1" 200 3017
+INFO 2022-11-09 04:23:05,018 basehttp 161 "GET /usernames/test1111/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 04:23:16,773 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 04:23:16,914 basehttp 161 "GET /image_codes/a1d0e4a4-94c1-464c-b14b-84b2ab1eaf85/ HTTP/1.1" 200 3497
+INFO 2022-11-09 04:23:24,806 views 63 301439
+INFO 2022-11-09 04:23:24,819 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 04:23:25,109 basehttp 161 "GET /sms_codes/18479783236/?image_code=uasv&uuid=a1d0e4a4-94c1-464c-b14b-84b2ab1eaf85 HTTP/1.1" 200 85
+INFO 2022-11-09 04:23:40,096 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 04:23:40,096 basehttp 161 "GET /usernames/test1111/count/ HTTP/1.1" 200 41
+WARNING 2022-11-09 04:23:40,099 log 224 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2022-11-09 04:23:40,100 basehttp 161 "POST /register/ HTTP/1.1" 403 2519
+ERROR 2022-11-09 04:23:40,116 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py", line 63, in post
+    if not re.match('^[a-zA-Z0-9_-]{5,20}$', username):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/re.py", line 191, in match
+    return _compile(pattern, flags).match(string)
+TypeError: expected string or bytes-like object
+ERROR 2022-11-09 04:23:40,117 basehttp 161 "POST /register/ HTTP/1.1" 500 84327
+INFO 2022-11-09 04:31:46,946 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 04:35:49,959 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 04:40:47,950 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 04:41:01,481 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 04:41:01,509 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 04:41:01,514 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 04:41:01,516 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 04:41:01,517 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 04:41:01,518 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 04:41:01,577 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9976
+INFO 2022-11-09 04:41:01,580 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-09 04:41:01,592 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 04:41:01,593 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-09 04:41:01,595 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-09 04:41:01,616 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 04:41:01,634 basehttp 161 "GET /image_codes/23d57704-ffa0-4c34-b9df-0056fd3ebba3/ HTTP/1.1" 200 3091
+INFO 2022-11-09 04:41:22,922 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 04:41:22,952 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 04:41:22,952 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 04:41:22,954 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 04:41:22,954 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 04:41:22,956 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 04:41:23,018 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9976
+INFO 2022-11-09 04:41:23,019 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-09 04:41:23,035 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-09 04:41:23,035 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+WARNING 2022-11-09 04:41:23,050 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 04:41:23,051 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2022-11-09 04:41:23,055 basehttp 161 "GET /image_codes/9a07c7db-09b5-4156-ab5d-6ec1bea8b9ae/ HTTP/1.1" 200 3255
+INFO 2022-11-09 04:41:31,286 basehttp 161 "GET /usernames/test1111/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 04:41:39,629 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 04:41:39,742 basehttp 161 "GET /image_codes/5ae89699-e40d-4f6a-9abf-2202fc8ab903/ HTTP/1.1" 200 2994
+INFO 2022-11-09 04:41:51,291 views 64 389516
+INFO 2022-11-09 04:41:51,301 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 04:41:51,573 basehttp 161 "GET /sms_codes/18479783236/?image_code=zcl6&uuid=5ae89699-e40d-4f6a-9abf-2202fc8ab903 HTTP/1.1" 200 85
+INFO 2022-11-09 04:42:08,694 basehttp 161 "GET /usernames/test1111/count/ HTTP/1.1" 200 41
+WARNING 2022-11-09 04:42:08,714 log 224 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2022-11-09 04:42:08,715 basehttp 161 "POST /register/ HTTP/1.1" 403 2519
+INFO 2022-11-09 04:42:08,721 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+ERROR 2022-11-09 04:42:08,762 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py", line 69, in post
+    if not re.match('^[0-9A-Za-z]{8,20}$', password):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/re.py", line 191, in match
+    return _compile(pattern, flags).match(string)
+TypeError: expected string or bytes-like object
+ERROR 2022-11-09 04:42:08,766 basehttp 161 "POST /register/ HTTP/1.1" 500 84220
+INFO 2022-11-09 04:45:23,558 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-09 04:45:23,850 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 04:45:32,277 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-09 04:45:32,531 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 04:45:41,032 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-09 04:45:41,282 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 04:45:50,784 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-09 04:45:51,050 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 04:46:01,508 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-09 04:46:01,790 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 04:47:40,054 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-09 04:47:40,333 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 04:47:42,574 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 04:47:42,631 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 04:47:42,632 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 04:47:42,633 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 04:47:42,634 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 04:47:42,643 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 04:47:42,706 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9976
+INFO 2022-11-09 04:47:42,707 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-09 04:47:42,717 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 04:47:42,717 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-09 04:47:42,720 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-09 04:47:42,733 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 04:47:42,744 basehttp 161 "GET /image_codes/58475453-e767-4083-8409-c4957b913bd8/ HTTP/1.1" 200 3437
+INFO 2022-11-09 04:47:48,832 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 04:47:48,855 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 04:47:48,856 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 04:47:48,857 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 04:47:48,858 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 04:47:48,859 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 04:47:48,914 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9976
+INFO 2022-11-09 04:47:48,916 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2022-11-09 04:47:48,929 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 04:47:48,931 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 04:47:48,931 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2022-11-09 04:47:48,931 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-09 04:47:48,950 basehttp 161 "GET /image_codes/ee3e84bf-f121-40da-8044-a8a4fdd423cd/ HTTP/1.1" 200 3180
+INFO 2022-11-09 04:47:52,252 basehttp 161 "GET /usernames/test1111/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 04:48:03,220 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 04:48:10,317 views 64 475871
+INFO 2022-11-09 04:48:10,327 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 04:48:10,564 basehttp 161 "GET /sms_codes/18479783236/?image_code=wtmf&uuid=ee3e84bf-f121-40da-8044-a8a4fdd423cd HTTP/1.1" 200 85
+INFO 2022-11-09 04:48:20,852 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 04:48:20,858 basehttp 161 "GET /usernames/test1111/count/ HTTP/1.1" 200 41
+WARNING 2022-11-09 04:48:20,869 log 224 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2022-11-09 04:48:20,879 basehttp 161 "POST /register/ HTTP/1.1" 403 2519
+INFO 2022-11-09 04:48:20,986 basehttp 161 "POST /register/ HTTP/1.1" 302 0
+INFO 2022-11-09 04:48:20,991 basehttp 161 "GET / HTTP/1.1" 200 1454
+INFO 2022-11-09 04:48:21,010 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 04:48:21,012 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 04:48:21,012 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 04:48:21,012 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 04:48:21,013 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2022-11-09 04:48:21,014 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+WARNING 2022-11-09 04:48:21,081 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 04:48:38,921 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 04:48:38,947 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 04:48:38,948 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 04:48:38,948 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 04:48:38,949 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 04:48:38,951 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 04:48:39,010 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9976
+INFO 2022-11-09 04:48:39,011 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2022-11-09 04:48:39,024 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 04:48:39,038 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 04:48:39,039 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-09 04:48:39,046 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2022-11-09 04:48:39,048 basehttp 161 "GET /image_codes/17c07716-4b11-4378-a53e-f6a65b3819e4/ HTTP/1.1" 200 3380
+INFO 2022-11-09 04:48:48,434 basehttp 161 "GET /image_codes/4828b7eb-5954-45b3-9ee2-3b85a7864351/ HTTP/1.1" 200 3093
+INFO 2022-11-09 05:14:54,140 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2022-11-09 05:14:54,460 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 05:15:12,833 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 05:15:12,871 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 05:15:12,872 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 05:15:12,875 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 05:15:12,876 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 05:15:12,884 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 05:15:12,953 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 9976
+INFO 2022-11-09 05:15:12,953 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-09 05:15:12,971 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 05:15:12,989 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-09 05:15:12,991 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-09 05:15:12,999 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 05:15:13,010 basehttp 161 "GET /image_codes/62f2e5db-a711-4db1-adfd-c73e55865df0/ HTTP/1.1" 200 3098
+INFO 2022-11-09 05:51:20,230 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 05:55:21,660 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-09 05:55:21,960 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 05:58:18,089 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-09 05:58:18,371 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 06:02:56,787 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-09 06:02:57,111 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 06:06:33,787 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/utils/response_code.py changed, reloading.
+INFO 2022-11-09 06:06:34,094 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 06:07:12,229 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-09 06:07:12,528 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 06:07:20,944 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-09 06:07:21,191 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 06:07:33,701 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-09 06:07:33,956 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 06:15:41,358 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 06:24:12,366 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-09 06:24:12,688 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 06:27:26,158 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-09 06:27:26,476 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 06:28:56,519 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 06:28:56,582 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 06:28:56,583 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 06:28:56,584 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 06:28:56,584 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 06:28:56,586 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 06:28:56,645 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 10007
+INFO 2022-11-09 06:28:56,646 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-09 06:28:56,665 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-09 06:28:56,665 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 06:28:56,667 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-09 06:28:56,684 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 06:28:56,700 basehttp 161 "GET /image_codes/8a6775b7-a02b-4c25-abc8-77dc0728631c/ HTTP/1.1" 200 3431
+INFO 2022-11-09 06:29:04,741 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 06:29:27,545 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 06:29:39,336 views 70 626565
+INFO 2022-11-09 06:29:39,339 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 06:29:39,651 basehttp 161 "GET /sms_codes/18479783236/?image_code=gzep&uuid=8a6775b7-a02b-4c25-abc8-77dc0728631c HTTP/1.1" 200 85
+INFO 2022-11-09 06:30:17,672 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 06:30:17,700 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 06:30:17,701 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 06:30:17,703 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 06:30:17,704 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 06:30:17,705 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 06:30:17,766 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 10007
+INFO 2022-11-09 06:30:17,776 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-09 06:30:17,781 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+WARNING 2022-11-09 06:30:17,795 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 06:30:17,799 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 06:30:17,800 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2022-11-09 06:30:17,803 basehttp 161 "GET /image_codes/4ea94116-3a17-423d-82a5-e403fa324cc8/ HTTP/1.1" 200 3545
+INFO 2022-11-09 06:30:21,128 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 06:30:25,996 basehttp 161 "GET /sms_codes/18479783236/?image_code=w3ew&uuid=4ea94116-3a17-423d-82a5-e403fa324cc8 HTTP/1.1" 200 78
+INFO 2022-11-09 06:30:25,998 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 06:30:26,009 basehttp 161 "GET /image_codes/bbbbc0ea-3a1a-4bb7-a576-9a1e1e3afa10/ HTTP/1.1" 200 3275
+INFO 2022-11-09 06:32:03,586 basehttp 161 "GET /image_codes/dea99c69-c2d4-4385-80fc-0fdbca2a0843/ HTTP/1.1" 200 3232
+INFO 2022-11-09 06:32:05,249 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 06:32:05,252 basehttp 161 "GET /sms_codes/18479783236/?image_code=w3ew&uuid=dea99c69-c2d4-4385-80fc-0fdbca2a0843 HTTP/1.1" 200 90
+INFO 2022-11-09 06:32:05,273 basehttp 161 "GET /image_codes/76fa4890-0d37-48c5-a071-96153d785598/ HTTP/1.1" 200 3241
+INFO 2022-11-09 06:32:08,219 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 06:32:08,220 basehttp 161 "GET /sms_codes/18479783236/?image_code=w3ew&uuid=76fa4890-0d37-48c5-a071-96153d785598 HTTP/1.1" 200 90
+INFO 2022-11-09 06:32:08,238 basehttp 161 "GET /image_codes/6ed11ca9-fbc7-45e9-b955-09d3100b6bdb/ HTTP/1.1" 200 3163
+INFO 2022-11-09 06:32:09,611 basehttp 161 "GET /image_codes/b4a689ee-8139-4f1d-8359-4ac25f5327fd/ HTTP/1.1" 200 3210
+INFO 2022-11-09 06:37:13,074 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-09 06:37:13,365 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 07:10:31,890 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-09 07:10:32,176 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 07:17:05,467 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-09 07:17:05,765 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 07:45:37,395 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-09 07:45:37,743 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 07:46:34,736 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-09 07:46:35,040 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 07:48:38,621 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-09 07:48:38,932 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 07:50:02,444 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/celery_tasks/sms/tasks.py changed, reloading.
+INFO 2022-11-09 07:50:02,749 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 07:51:05,207 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-09 07:51:05,504 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 07:51:29,452 autoreload 251 /Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py changed, reloading.
+INFO 2022-11-09 07:51:29,732 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 07:55:18,746 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 07:55:18,779 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 07:55:18,780 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 07:55:18,780 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 07:55:18,783 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 07:55:18,785 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 07:55:18,858 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 10007
+INFO 2022-11-09 07:55:18,859 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-09 07:55:18,871 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-09 07:55:18,873 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 07:55:18,874 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-09 07:55:18,889 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 07:55:18,897 basehttp 161 "GET /image_codes/c8441f71-d5ab-40e3-8f83-1e5b2297b99e/ HTTP/1.1" 200 3161
+INFO 2022-11-09 07:55:38,746 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 07:55:48,562 views 68 591482
+INFO 2022-11-09 07:55:48,567 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+ERROR 2022-11-09 07:55:48,620 log 224 Internal Server Error: /sms_codes/18479783236/
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py", line 93, in get
+    send_sms_code(mobile, sms_code)  # 错误的写法
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/celery/local.py", line 188, in __call__
+    return self._get_current_object()(*a, **kw)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/celery/app/task.py", line 392, in __call__
+    return self.run(*args, **kwargs)
+TypeError: send_sms_code() missing 1 required positional argument: 'sms_code'
+ERROR 2022-11-09 07:55:48,627 basehttp 161 "GET /sms_codes/18479783236/?image_code=ebxo&uuid=c8441f71-d5ab-40e3-8f83-1e5b2297b99e HTTP/1.1" 500 88487
+INFO 2022-11-09 07:58:13,018 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 07:58:18,420 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 07:58:18,455 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 07:58:18,456 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 07:58:18,457 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 07:58:18,459 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 07:58:18,463 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 07:58:18,547 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 10007
+INFO 2022-11-09 07:58:18,547 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-09 07:58:18,559 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 07:58:18,559 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-09 07:58:18,561 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-09 07:58:18,567 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 07:58:18,586 basehttp 161 "GET /image_codes/989b692a-a78a-4749-853d-383f061d4d8e/ HTTP/1.1" 200 2893
+INFO 2022-11-09 07:58:24,600 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 07:58:32,114 views 68 171163
+INFO 2022-11-09 07:58:32,116 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+ERROR 2022-11-09 07:58:32,160 log 224 Internal Server Error: /sms_codes/18479783236/
+Traceback (most recent call last):
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/my_mall_py_stys/meiduo_mall/meiduo_mall/apps/verifycations/views.py", line 94, in get
+    send_sms_code.delay(mobile, sms_code)  # 固定语法规则 delay
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/celery/app/task.py", line 425, in delay
+    return self.apply_async(args, kwargs)
+  File "/Users/wenlong/Desktop/love-coding/pySys/pyEnv/env3.8/lib/python3.8/site-packages/celery/app/task.py", line 540, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: send_sms_code() missing 1 required positional argument: 'sms_code'
+ERROR 2022-11-09 07:58:32,164 basehttp 161 "GET /sms_codes/18479783236/?image_code=tkan&uuid=989b692a-a78a-4749-853d-383f061d4d8e HTTP/1.1" 500 89894
+INFO 2022-11-09 07:59:26,769 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 07:59:30,271 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 07:59:30,288 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 07:59:30,291 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 07:59:30,292 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 07:59:30,292 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 07:59:30,294 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 07:59:30,360 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 10007
+INFO 2022-11-09 07:59:30,384 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 07:59:30,384 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-09 07:59:30,385 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-09 07:59:30,393 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-09 07:59:30,411 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 07:59:30,454 basehttp 161 "GET /image_codes/762db12c-91e5-47ce-b552-1dff941b540b/ HTTP/1.1" 200 3197
+INFO 2022-11-09 07:59:35,569 basehttp 161 "GET /image_codes/138d0d0f-0aa8-4ccd-af61-24e024d5e7fd/ HTTP/1.1" 200 3209
+INFO 2022-11-09 07:59:41,598 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 07:59:47,745 views 68 093189
+INFO 2022-11-09 07:59:47,748 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 07:59:47,798 basehttp 161 "GET /sms_codes/18479783236/?image_code=lwcx&uuid=138d0d0f-0aa8-4ccd-af61-24e024d5e7fd HTTP/1.1" 200 85
+INFO 2022-11-09 08:00:44,202 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-11-09 08:00:47,867 basehttp 161 "GET /image_codes/3cff58e5-4a48-4119-9395-1372d69090fd/ HTTP/1.1" 200 3494
+INFO 2022-11-09 08:01:01,139 basehttp 161 "GET /register/ HTTP/1.1" 200 4837
+INFO 2022-11-09 08:01:01,186 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-11-09 08:01:01,189 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 121
+INFO 2022-11-09 08:01:01,191 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2022-11-09 08:01:01,192 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-11-09 08:01:01,202 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-11-09 08:01:01,250 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 10007
+INFO 2022-11-09 08:01:01,250 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-11-09 08:01:01,263 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-11-09 08:01:01,264 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-11-09 08:01:01,266 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-11-09 08:01:01,276 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-11-09 08:01:01,278 basehttp 161 "GET /image_codes/b3969527-aa86-40e4-8da8-6148733fff45/ HTTP/1.1" 200 3109
+INFO 2022-11-09 08:01:07,670 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 08:01:13,811 views 68 868731
+INFO 2022-11-09 08:01:13,855 basehttp 161 "GET /mobiles/18479783236/count/ HTTP/1.1" 200 41
+INFO 2022-11-09 08:01:13,884 basehttp 161 "GET /sms_codes/18479783236/?image_code=uep8&uuid=b3969527-aa86-40e4-8da8-6148733fff45 HTTP/1.1" 200 85
+INFO 2022-11-09 08:02:13,909 basehttp 161 "GET /image_codes/480250ad-2c78-40b7-bbf2-8bbd64c74afe/ HTTP/1.1" 200 3332

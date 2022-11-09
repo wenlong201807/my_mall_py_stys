@@ -6,11 +6,9 @@ import random
 import logging
 
 from meiduo_mall.libs.captcha.captcha import captcha
-from meiduo_mall.libs.yuntongxun.ccp_sms import CCP
 from meiduo_mall.utils.response_code import RET
 from . import constants
-
-# from celery_tasks.sms.tasks import send_sms
+from celery_tasks.sms.tasks import send_sms_code
 
 # 创建日志输出器
 logger = logging.getLogger('django')  # settings 中设置的日志器同名 'django': {  # 定义了一个名为django的日志器
@@ -87,9 +85,13 @@ class SMSCCodeView(View):
         pl.setex('send_flag_%s' % mobile, constants.SMS_CODE_FLAG, 1)
         pl.execute()
 
-        # 8 发送短信验证码
+        # 8 发送短信验证码 89两步骤有严重阻塞隐患。需要使用异步操作
         # 此处需要整数 //
-        CCP().send_template_sms(mobile, [sms_code, constants.SMS_CODE_EXPIRES // 60], constants.SEND_SMS_TEMPLATE_ID)
+        # 任务 解 耦 移动到 celery中
+        # CCP().send_template_sms(mobile, [sms_code, constants.SMS_CODE_EXPIRES // 60], constants.SEND_SMS_TEMPLATE_ID)
+        # 使用celery 发送短信验证码
+        # send_sms_code(mobile, sms_code)  # 错误的写法
+        send_sms_code.delay(mobile, sms_code)  # 固定语法规则 delay
 
         # 9 响应结果
         return http.JsonResponse({'code': RET.OK, 'errmsg': '发送短信成功', 'sms_code': sms_code})

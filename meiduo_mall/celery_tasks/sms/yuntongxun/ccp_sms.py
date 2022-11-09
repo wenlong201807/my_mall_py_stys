@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # https://www.yuntongxun.com/member/main 查看
 # from .CCPRestSDK import REST 🙅‍
-from meiduo_mall.libs.yuntongxun.CCPRestSDK import REST  # 导入模版必须是 source Root目录
+from celery_tasks.sms.yuntongxun.CCPRestSDK import REST  # 导入模版必须是 source Root目录
 
 # 说明：主账号，登陆云通讯网站后，可在"控制台-应用"中看到开发者主账号ACCOUNT SID
 _accountSid = '8aaf0708842397dd0184563121740fdb'
