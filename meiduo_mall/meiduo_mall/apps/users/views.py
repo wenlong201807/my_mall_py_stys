@@ -2,8 +2,8 @@ from django.shortcuts import render, redirect
 from django.views import View
 from django import http
 import re
-
 from django_redis import get_redis_connection
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 from .models import User
 from django.contrib.auth import login, authenticate, logout
@@ -11,6 +11,15 @@ from meiduo_mall.utils.response_code import RET
 from . import constants
 from django.db import DatabaseError
 from django.urls import reverse
+
+
+class UserInfoView(LoginRequiredMixin, View):
+    """
+    用户中心
+    LoginRequiredMixin 继承功能: 如果没有登录，则先跳转到登录页，登录成功后，再进入此页
+    """
+    def get(self, request):
+        return render(request, 'user_center_info.html')
 
 
 class LogoutView(View):
@@ -28,7 +37,6 @@ class LogoutView(View):
 
         # 响应结果：重定向到首页
         return response
-
 
 
 class LoginView(View):
@@ -79,8 +87,15 @@ class LoginView(View):
             # 记住登录: 状态保持周期为两周(默认是两周)
             request.session.set_expiry(None)
 
-        # 响应结果：重定向到首页
-        response = redirect(reverse('contents:index'))
+        # 响应结果：
+        # 判断路由中是否有next参数，如果有，则跳转到指定页，否则进入首页
+        next = request.GET.get('next')
+        if next:
+            # 重定向到next页
+            response = redirect(next)
+        else:
+            # 默认跳转到首页
+            response = redirect(reverse('contents:index'))
 
         # 为了实现在首页右上角展示用户名信息，需要将用户名缓存到cookie中
         # response.set_cookie('key', 'val', 'expiry')

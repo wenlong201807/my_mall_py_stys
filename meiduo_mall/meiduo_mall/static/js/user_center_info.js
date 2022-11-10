@@ -1,7 +1,7 @@
 var vm = new Vue({
     el: '#app',
     // 修改Vue变量的读取语法，避免和django模板语法冲突
-    delimiters: ['[[', ']]'],
+    delimiters: ['{{', '}}'],
     data: {
         host: host,
         username: username,
@@ -19,7 +19,7 @@ var vm = new Vue({
     mounted() {
         // 额外处理用户数据
         this.email_active = (this.email_active=='True') ? true : false;
-        this.set_email = (this.email=='') ? true : false;
+        this.set_email = !this.email;
 
         // 请求浏览历史记录
         this.browse_histories();
@@ -57,11 +57,11 @@ var vm = new Vue({
                         responseType: 'json'
                     })
                     .then(response => {
-                        if (response.data.code == '0') {
+                        if (response.data.code === '0') {
                             this.set_email = false;
                             this.send_email_btn_disabled = true;
                             this.send_email_tip = '已发送验证邮件';
-                        } else if (response.data.code == '4101') {
+                        } else if (response.data.code === '4101') {
                             location.href = '/login/?next=/info/';
                         } else { // 5000 5001
                             this.error_email_message = response.data.errmsg;
@@ -81,7 +81,7 @@ var vm = new Vue({
                 })
                 .then(response => {
                     this.histories = response.data.skus;
-                    for(var i=0; i<this.histories.length; i++){
+                    for(let i=0; i<this.histories.length; i++){
                         this.histories[i].url = '/goods/' + this.histories[i].id + '.html';
                     }
                 })

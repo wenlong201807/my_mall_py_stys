@@ -210,6 +210,9 @@ AUTH_USER_MODEL = 'users.User'  # 默认值是 'auth.User'
 # 指定认证后端
 AUTHENTICATION_BACKENDS = ['users.utils.UsernameMobilBackend']
 
+# 判断用户是否登录后，指定未登录用户重定向的地址
+LOGIN_URL = '/login/'
+
 
 # https://django-redis-chs.readthedocs.io/zh_CN/latest/
 
