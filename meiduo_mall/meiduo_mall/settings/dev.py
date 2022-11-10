@@ -207,8 +207,9 @@ JWT_AUTH = {
 # 设置自定义的认证模型类 语法规则 -> '子应用.用户模型类'
 AUTH_USER_MODEL = 'users.User'  # 默认值是 'auth.User'
 
-# 设置自定义认证方法
-# AUTHENTICATION_BACKENDS = ['meiduo_mall.utils.my_authenticate.MyModelBackend']
+# 指定认证后端
+AUTHENTICATION_BACKENDS = ['users.utils.UsernameMobilBackend']
+
 
 # https://django-redis-chs.readthedocs.io/zh_CN/latest/
 
