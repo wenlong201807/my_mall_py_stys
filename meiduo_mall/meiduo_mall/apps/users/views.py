@@ -6,11 +6,29 @@ import re
 from django_redis import get_redis_connection
 
 from .models import User
-from django.contrib.auth import login, authenticate
+from django.contrib.auth import login, authenticate, logout
 from meiduo_mall.utils.response_code import RET
 from . import constants
 from django.db import DatabaseError
 from django.urls import reverse
+
+
+class LogoutView(View):
+    """用户退出登录"""
+
+    def get(self, request):
+        """实现用户退出登录逻辑"""
+        # 清除状态保持信息
+        logout(request)
+
+        # 退出登录
+        response = redirect(reverse('contents:index'))
+        # 删除cookie中username
+        response.delete_cookie('username')
+
+        # 响应结果：重定向到首页
+        return response
+
 
 
 class LoginView(View):
