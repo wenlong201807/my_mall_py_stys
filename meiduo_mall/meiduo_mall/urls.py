@@ -20,4 +20,5 @@ urlpatterns = [
     url(r'^', include(('users.urls', 'users'), namespace='users')),  # 增加命名空间
     url(r'^', include(('contents.urls', 'contents'), namespace='contents')),
     url('^', include('verifycations.urls')),  # 校验模块
+    url('^', include('oauth.urls')),  # 第三方授权模块
 ]

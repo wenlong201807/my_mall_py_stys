@@ -10,4 +10,6 @@ class QQUserModel(BaseModel):
     openid = models.CharField(max_length=64, verbose_name="qq用户的id")
 
     class Meta:
-        db_table = "tb_qq_user"
+        db_table = "tb_qq_user"  # oauth 登录模式
+        verbose_name = 'QQ登录用户数据'
+        verbose_name_plural = verbose_name

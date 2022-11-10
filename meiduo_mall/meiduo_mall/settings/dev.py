@@ -59,7 +59,7 @@ INSTALLED_APPS = [
     'verifycations.apps.VerifycationsConfig',  # 图形码，短信校验
     'orders.apps.OrdersConfig',
     'goods.apps.GoodsConfig',
-    'oauth.apps.OauthConfig',
+    'oauth.apps.OauthConfig',  # 第三方登录
     'areas.apps.AreasConfig',
     'contents.apps.ContentsConfig',  # 首页广告模块
     # 'haystack',
@@ -213,6 +213,10 @@ AUTHENTICATION_BACKENDS = ['users.utils.UsernameMobilBackend']
 # 判断用户是否登录后，指定未登录用户重定向的地址
 LOGIN_URL = '/login/'
 
+# QQ授权登录的信息
+QQ_CLIENT_ID = '101518219'
+QQ_CLIENT_SECRET = '418d84ebdc7241efb79536886ae95224'
+QQ_REDIRECT_URI = 'http://www.meiduo.site:8000/oauth_callback'  # 本地开发时，需要将此域名映射到 127.0.0.1
 
 # https://django-redis-chs.readthedocs.io/zh_CN/latest/
 

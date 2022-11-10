@@ -41,6 +41,23 @@ var vm = new Vue({
 				window.event.returnValue = false
             }
         },
+        getQueryString(url, paraName) {
+          const arrObj = url.split("?");
+          if (arrObj.length > 1) {
+            const arrPara = arrObj[1].split("&");
+            let arr;
+            for (let i = 0; i < arrPara.length; i++) {
+                arr = arrPara[i].split("=");
+              // eslint-disable-next-line eqeqeq
+              if (arr != null && arr[0] == paraName) {
+                return arr[1];
+              }
+            }
+            return "";
+          } else {
+            return "";
+          }
+        },
         // qq登录
         qq_login: function(){
             var next = get_query_string('next') || '/';
@@ -49,7 +66,16 @@ var vm = new Vue({
                     responseType: 'json'
                 })
                 .then(response => {
-                    location.href = response.data.login_url;
+                    // 'https://graph.qq.com/oauth2.0/authorize?' + urlencode(data_dict)
+
+                    // https://graph.qq.com/oauth2.0/show?which=error&display=pc&error=100010&which=Login&display=pc&response_type=code&client_id=101518219&state=%2F&redirect_uri=http%25253A%25252F%25252Fwww.meiduo.site%25253A8000%25252Foauth_callback
+                    // https://graph.qq.com/oauth2.0/show?which=error&display=pc&error=100010&which=Login&display=pc&response_type=code&client_id=101518219&state=%2F&redirect_uri=http://www.meiduo.site:8000/oauth_callback
+// https://graph.qq.com/oauth2.0/show?which=error&display=pc&error=100010&which=Login&display=pc&response_type=code&client_id=101518219&state=%2F&redirect_uri=http://www.meiduo.site:8000/oauth_callback
+// 1546683858 qaz3579
+                    const qqUrl = `https://graph.qq.com/oauth2.0/show?which=Login&display=pc&redirect_uri=http://www.meiduo.site:8000/oauth_callback&response_type=code&client_id=101518219&state=%2F`
+
+                    // location.href = response.data.login_url;  // 扫码成功后，自动跳转到 qq授权页面
+                    location.href = qqUrl;  // 扫码成功后，自动跳转到 qq授权页面
                 })
                 .catch(error => {
                     console.log(error.response);
