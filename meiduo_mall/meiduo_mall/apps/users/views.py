@@ -62,7 +62,14 @@ class LoginView(View):
             request.session.set_expiry(None)
 
         # 响应结果：重定向到首页
-        return redirect(reverse('contents:index'))
+        response = redirect(reverse('contents:index'))
+
+        # 为了实现在首页右上角展示用户名信息，需要将用户名缓存到cookie中
+        # response.set_cookie('key', 'val', 'expiry')
+        response.set_cookie('username', user.username, max_age=3600 * 24 * 15)
+
+        # 响应结果: 重定向到首页
+        return response
 
 
 class MobileCountView(View):
@@ -172,4 +179,13 @@ class RegisterView(View):
         # 响应结果，重定向到首页
         # return http.HttpResponse('注册成功，重定向到首页')
         # reverse('contents:index') == '/'
-        return redirect(reverse('contents:index'))
+
+        # 响应结果：重定向到首页
+        response = redirect(reverse('contents:index'))
+
+        # 为了实现在首页右上角展示用户名信息，需要将用户名缓存到cookie中
+        # response.set_cookie('key', 'val', 'expiry')
+        response.set_cookie('username', user.username, max_age=3600 * 24 * 15)
+
+        # 响应结果: 重定向到首页
+        return response
