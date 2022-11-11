@@ -51,9 +51,9 @@ class EmailView(LoginRequiredJSONMixin, View):
         # token = meiduo_signature.dumps({'user_id': request.user.id}, constants.EMAIL_ACTIVE_EXPIRES)
         # 拼接激活的链接地址
         # verify_url = settings.EMAIL_VERIFY_URL + '?token=' + token
-        # verify_url = generate_verfy_email_url(request.user)
+        verify_url = generate_verfy_email_url(request.user)
         # 异步发邮件
-        # send_verify_mail.delay(email, verify_url)
+        send_verify_mail.delay(email, verify_url)
         # send_mail(email)  # fail
         # 响应
         return http.JsonResponse({'code': RET.OK, 'errmsg': "OK"})

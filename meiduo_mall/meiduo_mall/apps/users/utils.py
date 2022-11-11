@@ -2,7 +2,7 @@
 from django.contrib.auth.backends import ModelBackend
 import re
 from django.conf import settings
-from itsdangerous import Serializer
+from itsdangerous import URLSafeSerializer
 
 from .models import User
 from . import constants
@@ -35,16 +35,17 @@ def send_mail(to_email):  # 发送邮件失败
     return ret
 
 
-def generate_verfy_email_url(user):  # 失败
+def generate_verfy_email_url(user):  # 失败 10-11
     """商城激活链接"""
-    s = Serializer(settings.SECRET_KEY, constants.EMAIL_ACTIVE_EXPIRES)
+    s = URLSafeSerializer(settings.SECRET_KEY, 'auth')
     data = {
         'user_id': user.id,
         'email': user.email
     }
     token = s.dumps(data)
+    print(token)
     # http://www.meiduo.site:8000/emails/verification/?token=${token}
-    return settings.EMAIL_VERIFY_URL + token.decode()
+    return settings.EMAIL_VERIFY_URL + token()
 
 
 def get_user_by_account(account):
