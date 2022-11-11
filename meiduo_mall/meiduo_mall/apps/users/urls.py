@@ -9,7 +9,7 @@ urlpatterns = [
     url(r'^login/$', views.LoginView.as_view(), name='login'),
     url(r'^logout/$', views.LogoutView.as_view(), name='logout'),  # name是命名空间字段，路由变了，命名空间不变，业务代码不动
     url(r'^info/$', views.UserInfoView.as_view(), name='info'),
-    # url(r'^emails/$',views.EmailView.as_view()),
+    url(r'^emails/$', views.EmailView.as_view()),  # 添加邮箱号，并在对应的邮箱中激活，以后可发送邮件
     # url(r'^verify/email/$',views.VerifyEmailView.as_view()),
     # url(r'^addresses/$',views.AddressesView.as_view()),
     # url(r'^addresses/create/$',views.AddressesCreateView.as_view()),

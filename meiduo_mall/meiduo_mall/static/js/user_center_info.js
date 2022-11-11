@@ -4,7 +4,7 @@ var vm = new Vue({
     delimiters: ['{{', '}}'],
     data: {
         host: host,
-        username: username,
+        username: username, // 在html中类似全局变量传入此处，变成vue里头的初始化数据
         mobile: mobile,
         email: email,
         email_active: email_active,
@@ -18,7 +18,7 @@ var vm = new Vue({
     // ES6语法
     mounted() {
         // 额外处理用户数据
-        this.email_active = (this.email_active=='True') ? true : false;
+        // this.email_active = this.email_active;
         this.set_email = !this.email;
 
         // 请求浏览历史记录
@@ -46,9 +46,10 @@ var vm = new Vue({
             // 检查email格式
             this.check_email();
 
-            if (this.error_email == false) {
+            if (!this.error_email) {
                 var url = this.host + '/emails/';
                 axios.put(url, {
+                    //  能够发这个请求，说明已经是登录状态，那么后端是有现成的用户其他信息的，只缺一个email字段信息
                         email: this.email
                     }, {
                         headers: {
@@ -62,6 +63,7 @@ var vm = new Vue({
                             this.send_email_btn_disabled = true;
                             this.send_email_tip = '已发送验证邮件';
                         } else if (response.data.code === '4101') {
+                            // 后端会检测，如果不是登录态，需要先登录，再自动跳转到这个页面继续操作
                             location.href = '/login/?next=/info/';
                         } else { // 5000 5001
                             this.error_email_message = response.data.errmsg;

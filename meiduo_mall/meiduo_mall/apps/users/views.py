@@ -1,9 +1,11 @@
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import render, redirect
 from django.views import View
 from django import http
 import re
+import json
+import logging
 from django_redis import get_redis_connection
-from django.contrib.auth.mixins import LoginRequiredMixin
 
 from .models import User
 from django.contrib.auth import login, authenticate, logout
@@ -11,6 +13,46 @@ from meiduo_mall.utils.response_code import RET
 from . import constants
 from django.db import DatabaseError
 from django.urls import reverse
+from meiduo_mall.utils.my_loginview import LoginRequiredJSONMixin  # 重写父类，判断用户是否是登录态
+
+# 创建日志输出器
+logger = logging.getLogger('django')
+
+
+class EmailView(LoginRequiredJSONMixin, View):
+    """添加邮箱号"""
+    # LoginRequiredJSONMixin 判断是否登录，这里没要再写里，因为系统未登录，是进不来这里的
+
+    def put(self, request):
+        # 接收参数
+        json_dict = json.loads(request.body.decode())  # body 是 byte类型。注意此处数据类型转换
+        email = json_dict.get('email')
+
+        # 验证参数合法性
+        if not all([email]):  # 邮箱号是否为空
+            return http.JsonResponse({'code': RET.EMAILERR, 'errmsg': "邮箱无效"})
+        if not re.match(r'^[a-z0-9][\w\.\-]*@[a-z0-9\-]+(\.[a-z]{2,5}){1,2}$', email):
+            return http.JsonResponse({'code': RET.EMAILERR, 'errmsg': "邮箱格式错误"})
+
+        # 处理：修改当前登录用户的邮箱属性,保存到数据库中
+        try:
+            request.user.email = email
+            request.user.save()
+        except Exception as e:
+            logger.error(e)
+            return http.JsonResponse({'code': RET.DBERR, 'errmsg': "添加邮箱失败"})
+
+        # 发邮件：耗时代码，使用celery异步
+        # send_mail('美多商城-邮箱激活','',settings.EMAIL_FROM,[email],html_message='')
+        # 将用户编号加密
+        # token = meiduo_signature.dumps({'user_id': user.id}, constants.EMAIL_ACTIVE_EXPIRES)
+        # # 拼接激活的链接地址
+        # verify_url = settings.EMAIL_VERIFY_URL + '?token=' + token
+        # # 异步发邮件
+        # send_active_mail.delay(email, verify_url)
+
+        # 响应
+        return http.JsonResponse({'code': RET.OK, 'errmsg': "OK"})
 
 
 class UserInfoView(LoginRequiredMixin, View):
@@ -18,8 +60,17 @@ class UserInfoView(LoginRequiredMixin, View):
     用户中心
     LoginRequiredMixin 继承功能: 如果没有登录，则先跳转到登录页，登录成功后，再进入此页
     """
+
     def get(self, request):
-        return render(request, 'user_center_info.html')
+        # 用户中心页面，有些用户个人信息需要在页面展示，特此收集并返回给页面端
+        # 可以进入用户中心，必定是已经登录状态，在request.user中就有user信息
+        context = {
+            'username': request.user.username,
+            'mobile': request.user.mobile,
+            'email': request.user.email,
+            'email_active': request.user.email_active,
+        }
+        return render(request, 'user_center_info.html', context)
 
 
 class LogoutView(View):

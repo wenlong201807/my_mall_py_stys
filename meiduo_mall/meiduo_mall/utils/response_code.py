@@ -8,7 +8,7 @@ class RET:
     NODATA              = "4002"
     DATAEXIST           = "4003"
     DATAERR             = "4004"
-    SESSIONERR          = "4101"
+    SESSIONERR          = "4101"  # 判断用户是否是登录态
     LOGINERR            = "4102"
     PARAMERR            = "4103"
     USERERR             = "4104"
