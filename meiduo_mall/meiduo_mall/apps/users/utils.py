@@ -1,8 +1,50 @@
 # 自定义用户认证的后端: 实现多账号登录
 from django.contrib.auth.backends import ModelBackend
 import re
+from django.conf import settings
+from itsdangerous import Serializer
 
 from .models import User
+from . import constants
+
+import smtplib
+from email.mime.text import MIMEText
+from email.utils import formataddr
+
+my_sender = '1573511441@qq.com@qq.com'  # 填写发信人的邮箱账号
+my_pass = '666777'  # 发件人邮箱授权码
+
+
+# my_user = '@qq.com'  # 收件人邮箱账号
+
+
+def send_mail(to_email):  # 发送邮件失败
+    ret = True
+    try:
+        msg = MIMEText('this is just a test', 'plain', 'utf-8')  # 填写邮件内容
+        msg['From'] = formataddr(["tracy", my_sender])  # 括号里的对应发件人邮箱昵称、发件人邮箱账号
+        msg['To'] = formataddr(["test", to_email])  # 括号里的对应收件人邮箱昵称、收件人邮箱账号
+        msg['Subject'] = "发送邮件测试"  # 邮件的主题，也可以说是标题
+
+        server = smtplib.SMTP_SSL("smtp.qq.com", 465)  # 发件人邮箱中的SMTP服务器
+        server.login(my_sender, my_pass)  # 括号中对应的是发件人邮箱账号、邮箱授权码
+        server.sendmail(my_sender, [to_email, ], msg.as_string())  # 括号中对应的是发件人邮箱账号、收件人邮箱账号、发送邮件
+        server.quit()  # 关闭连接
+    except Exception:  # 如果 try 中的语句没有执行，则会执行下面的 ret=False
+        ret = False
+    return ret
+
+
+def generate_verfy_email_url(user):  # 失败
+    """商城激活链接"""
+    s = Serializer(settings.SECRET_KEY, constants.EMAIL_ACTIVE_EXPIRES)
+    data = {
+        'user_id': user.id,
+        'email': user.email
+    }
+    token = s.dumps(data)
+    # http://www.meiduo.site:8000/emails/verification/?token=${token}
+    return settings.EMAIL_VERIFY_URL + token.decode()
 
 
 def get_user_by_account(account):

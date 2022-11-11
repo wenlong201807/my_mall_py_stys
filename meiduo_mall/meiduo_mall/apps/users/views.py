@@ -2,18 +2,20 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import render, redirect
 from django.views import View
 from django import http
+from django.contrib.auth import login, authenticate, logout
 import re
 import json
 import logging
 from django_redis import get_redis_connection
-
-from .models import User
-from django.contrib.auth import login, authenticate, logout
-from meiduo_mall.utils.response_code import RET
-from . import constants
 from django.db import DatabaseError
 from django.urls import reverse
+
+from django.conf import settings
+from .models import User
+from meiduo_mall.utils.response_code import RET
+from .utils import generate_verfy_email_url, send_mail
 from meiduo_mall.utils.my_loginview import LoginRequiredJSONMixin  # 重写父类，判断用户是否是登录态
+from celery_tasks.email.tasks import send_verify_mail
 
 # 创建日志输出器
 logger = logging.getLogger('django')
@@ -21,6 +23,7 @@ logger = logging.getLogger('django')
 
 class EmailView(LoginRequiredJSONMixin, View):
     """添加邮箱号"""
+
     # LoginRequiredJSONMixin 判断是否登录，这里没要再写里，因为系统未登录，是进不来这里的
 
     def put(self, request):
@@ -45,12 +48,13 @@ class EmailView(LoginRequiredJSONMixin, View):
         # 发邮件：耗时代码，使用celery异步
         # send_mail('美多商城-邮箱激活','',settings.EMAIL_FROM,[email],html_message='')
         # 将用户编号加密
-        # token = meiduo_signature.dumps({'user_id': user.id}, constants.EMAIL_ACTIVE_EXPIRES)
-        # # 拼接激活的链接地址
+        # token = meiduo_signature.dumps({'user_id': request.user.id}, constants.EMAIL_ACTIVE_EXPIRES)
+        # 拼接激活的链接地址
         # verify_url = settings.EMAIL_VERIFY_URL + '?token=' + token
-        # # 异步发邮件
-        # send_active_mail.delay(email, verify_url)
-
+        # verify_url = generate_verfy_email_url(request.user)
+        # 异步发邮件
+        # send_verify_mail.delay(email, verify_url)
+        # send_mail(email)  # fail
         # 响应
         return http.JsonResponse({'code': RET.OK, 'errmsg': "OK"})
 
