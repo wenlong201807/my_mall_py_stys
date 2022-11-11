@@ -72,10 +72,13 @@ var vm = new Vue({
                     // https://graph.qq.com/oauth2.0/show?which=error&display=pc&error=100010&which=Login&display=pc&response_type=code&client_id=101518219&state=%2F&redirect_uri=http://www.meiduo.site:8000/oauth_callback
 // https://graph.qq.com/oauth2.0/show?which=error&display=pc&error=100010&which=Login&display=pc&response_type=code&client_id=101518219&state=%2F&redirect_uri=http://www.meiduo.site:8000/oauth_callback
 // 1546683858 qaz3579
-                    const qqUrl = `https://graph.qq.com/oauth2.0/show?which=Login&display=pc&redirect_uri=http://www.meiduo.site:8000/oauth_callback&response_type=code&client_id=101518219&state=%2F`
+                    const qqUrl = `https://graph.qq.com/oauth2.0/show?which=Login&display=pc&redirect_uri=${urlencode('http://www.meiduo.site:8000/oauth_callback')}&response_type=code&client_id=101518219&state=%2F`
+                    // const qqUrl = `https://graph.qq.com/oauth2.0/show?which=Login&display=pc&redirect_uri=http://www.meiduo.site:8000/oauth_callback&response_type=code&client_id=101518219&state=%2F`
 
-                    // location.href = response.data.login_url;  // 扫码成功后，自动跳转到 qq授权页面
-                    location.href = qqUrl;  // 扫码成功后，自动跳转到 qq授权页面
+                    //  https://graph.qq.com/oauth2.0/authorize?response_type=code&client_id=101518219&redirect_uri=http://www.meiduo.site:8000/oauth_callback&state=%2F
+                    location.href = response.data.login_url;  // 扫码成功后，自动跳转到 qq授权页面
+                    // 'https://graph.qq.com/oauth2.0/authorize?response_type=code&client_id=101518219&redirect_uri=http%3A%2F%2Fwww.meiduo.site%3A8000%2Foauth_callback&state=%2F'
+                    // location.href = qqUrl;  // 扫码成功后，自动跳转到 qq授权页面
                 })
                 .catch(error => {
                     console.log(error.response);
